@@ -1,0 +1,85 @@
+{
+  "generacions": [
+    {
+      "id": 1,
+      "nom": "Generació I",
+      "any_lançament": 1996,
+      "jocs": [
+        "Pokémon Red",
+        "Pokémon Blue",
+        "Pokémon Yellow"
+      ],
+      "gimnassos": [
+        {
+          "id": 1,
+          "nom": "Gimnàs de la Ciutat de Verton",
+          "lider": "Brock",
+          "tipus": [
+            "Rock"
+          ],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 2,
+          "nom": "Gimnàs de la Ciutat de Pallet",
+          "lider": "Red",
+          "tipus": [
+            "Normal"
+          ],
+          "localitzacio": "Regió Kanto"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Generació II",
+      "any_lançament": 1999,
+      "jocs": [
+        "Pokémon Gold",
+        "Pokémon Silver",
+        "Pokémon Crystal"
+      ],
+      "gimnassos": [
+        {
+          "id": 3,
+          "nom": "Gimnàs de la Ciutat de Cèdric",
+          "lider": "Claire",
+          "tipus": [
+            "Drac"
+          ],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 4,
+          "nom": "Gimnàs de la Ciutat de Majes",
+          "lider": "Morty",
+          "tipus": [
+            "Fantasma"
+          ],
+          "localitzacio": "Regió Johto"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Generació III",
+      "any_lançament": 2002,
+      "jocs": [
+        "Pokémon Ruby",
+        "Pokémon Sapphire",
+        "Pokémon Emerald"
+      ],
+      "gimnassos": [
+        {
+          "id": 5,
+          "nom": "Gimnàs de la Ciutat de Fluix",
+          "lider": "Roxanne",
+          "tipus": [
+            "Pedra"
+          ],
+          "localitzacio": "Regió Hoenn"
+        }
+      ]
+    }
+  ]
+}

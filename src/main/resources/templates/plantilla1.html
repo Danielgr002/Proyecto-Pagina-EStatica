@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalls dels Gimnassos</title>
+    <link rel="stylesheet" type="text/css" href="../css/gimnasio.css">
+</head>
+<body>
+<h1>Detalls dels Gimnassos</h1>
+
+<th:block th:if="${generacions != null}">
+    <table>
+        <thead>
+        <tr>
+            <th>ID Generació</th>
+            <th>Nom Generació</th>
+            <th>Any de Lançament</th>
+            <th>Jocs</th>
+            <th>Gimnassos</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="generacio : ${generacions}">
+            <td th:text="${generacio.id}">--</td>
+            <td th:text="${generacio.nom}">--</td>
+            <td th:text="${generacio.any_lançament}">--</td>
+            <td>
+                <ul>
+                    <li th:each="joc : ${generacio.jocs}" th:text="${joc}">--</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li th:each="gimnasio : ${generacio.gimnassos}">
+                        <b th:text="${gimnasio.nom}">--</b> (Líder: <span th:text="${gimnasio.lider}">--</span>)<br>
+                        Tipus: <span th:text="${#strings.join(gimnasio.tipus, ', ')}">--</span><br>
+                        Localització: <span th:text="${gimnasio.localitzacio}">--</span><br>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</th:block>
+</body>
+</html>

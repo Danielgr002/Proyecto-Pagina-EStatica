@@ -1,0 +1,294 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "generacions": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lançament": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "líder": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "líder",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "líder": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "líder",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lançament",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lançament": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "líder": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "líder",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "líder": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "líder",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lançament",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lançament": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "líder": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "líder",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lançament",
+            "jocs",
+            "gimnassos"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "generacions"
+  ]
+}
