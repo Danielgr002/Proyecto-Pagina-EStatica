@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Pokemons {
     @JsonProperty("generacions")
-    List<Generaciones> generaciones;
+    private List<Generaciones> generaciones;
 
     public Pokemons() {
     }
@@ -28,15 +28,15 @@ public class Pokemons {
 
 class Generaciones{
     @JsonProperty("id")
-    int id;
+    private int id;
     @JsonProperty("nom")
-    String nom;
+    private String nom;
     @JsonProperty("any_lançament")
-    int any_lançament;
+    private int any_lançament;
     @JsonProperty("jocs")
-    ArrayList<String> jocs;
+    private ArrayList<String> jocs;
     @JsonProperty("gimnassos")
-    ArrayList<Gimnasios> gimnassos;
+    private ArrayList<Gimnasios> gimnassos;
 
     public Generaciones(int id, String nom, int any_lançament, ArrayList<String> jocs, ArrayList<Gimnasios> gimnassos) {
         this.id = id;
@@ -92,15 +92,18 @@ class Generaciones{
 
 class Gimnasios {
     @JsonProperty("id")
-    int id;
+    private int id;
     @JsonProperty("nom")
-    String nom;
+    private String nom;
     @JsonProperty("lider")
-    String lider;
+    private String lider;
     @JsonProperty("tipus")
-    ArrayList<String> tipus;
+    private List<String> tipus;
     @JsonProperty("localitzacio")
-    String localizacion;
+    private String localizacion;
+
+    public Gimnasios(){
+    }
 
     public Gimnasios(int id, String nom, String lider, ArrayList<String> tipus, String localizacion) {
         this.id = id;
@@ -122,7 +125,7 @@ class Gimnasios {
         return lider;
     }
 
-    public ArrayList<String> getTipus() {
+    public List<String> getTipus() {
         return tipus;
     }
 

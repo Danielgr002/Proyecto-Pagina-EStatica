@@ -12,20 +12,58 @@
       "gimnassos": [
         {
           "id": 1,
-          "nom": "Gimnàs de la Ciutat de Verton",
-          "lider": "Brock",
-          "tipus": [
-            "Rock"
-          ],
+          "nom": "Gimnàs de la Ciutat de Viridian",
+          "lider": "Giovanni",
+          "tipus": ["Ground"],
           "localitzacio": "Regió Kanto"
         },
         {
           "id": 2,
-          "nom": "Gimnàs de la Ciutat de Pallet",
-          "lider": "Red",
-          "tipus": [
-            "Normal"
-          ],
+          "nom": "Gimnàs de la Ciutat de Pewter",
+          "lider": "Brock",
+          "tipus": ["Rock"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 3,
+          "nom": "Gimnàs de la Ciutat de Cerulean",
+          "lider": "Misty",
+          "tipus": ["Water"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 4,
+          "nom": "Gimnàs de la Ciutat de Vermilion",
+          "lider": "Lt. Surge",
+          "tipus": ["Electric"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 5,
+          "nom": "Gimnàs de la Ciutat de Celadon",
+          "lider": "Erika",
+          "tipus": ["Planta"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 6,
+          "nom": "Gimnàs de la Ciutat de Fuchsia",
+          "lider": "Koga",
+          "tipus": ["Poison"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 7,
+          "nom": "Gimnàs de la Ciutat de Saffron",
+          "lider": "Sabrina",
+          "tipus": ["Psychic"],
+          "localitzacio": "Regió Kanto"
+        },
+        {
+          "id": 8,
+          "nom": "Gimnàs de la Ciutat de Cinnabar",
+          "lider": "Blaine",
+          "tipus": ["Fire"],
           "localitzacio": "Regió Kanto"
         }
       ]
@@ -41,21 +79,59 @@
       ],
       "gimnassos": [
         {
-          "id": 3,
-          "nom": "Gimnàs de la Ciutat de Cèdric",
-          "lider": "Claire",
-          "tipus": [
-            "Drac"
-          ],
+          "id": 9,
+          "nom": "Gimnàs de la Ciutat de Violet",
+          "lider": "Falkner",
+          "tipus": ["Flying"],
           "localitzacio": "Regió Johto"
         },
         {
-          "id": 4,
-          "nom": "Gimnàs de la Ciutat de Majes",
+          "id": 10,
+          "nom": "Gimnàs de la Ciutat de Azalea",
+          "lider": "Bugsy",
+          "tipus": ["Bug"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 11,
+          "nom": "Gimnàs de la Ciutat de Goldenrod",
+          "lider": "Whitney",
+          "tipus": ["Normal"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 12,
+          "nom": "Gimnàs de la Ciutat de Ecruteak",
           "lider": "Morty",
-          "tipus": [
-            "Fantasma"
-          ],
+          "tipus": ["Ghost"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 13,
+          "nom": "Gimnàs de la Ciutat de Cianwood",
+          "lider": "Chuck",
+          "tipus": ["Fighting"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 14,
+          "nom": "Gimnàs de la Ciutat de Olivine",
+          "lider": "Jasmine",
+          "tipus": ["Steel"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 15,
+          "nom": "Gimnàs de la Ciutat de Mahogany",
+          "lider": "Pryce",
+          "tipus": ["Ice"],
+          "localitzacio": "Regió Johto"
+        },
+        {
+          "id": 16,
+          "nom": "Gimnàs de la Ciutat de Blackthorn",
+          "lider": "Clair",
+          "tipus": ["Dragon"],
           "localitzacio": "Regió Johto"
         }
       ]
@@ -71,13 +147,264 @@
       ],
       "gimnassos": [
         {
-          "id": 5,
-          "nom": "Gimnàs de la Ciutat de Fluix",
+          "id": 17,
+          "nom": "Gimnàs de la Ciutat de Rustboro",
           "lider": "Roxanne",
-          "tipus": [
-            "Pedra"
-          ],
+          "tipus": ["Rock"],
           "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 18,
+          "nom": "Gimnàs de la Ciutat de Dewford",
+          "lider": "Brawly",
+          "tipus": ["Fighting"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 19,
+          "nom": "Gimnàs de la Ciutat de Mauville",
+          "lider": "Wattson",
+          "tipus": ["Electric"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 20,
+          "nom": "Gimnàs de la Ciutat de Fiery Path",
+          "lider": "Flannery",
+          "tipus": ["Fire"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 21,
+          "nom": "Gimnàs de la Ciutat de Petalburg",
+          "lider": "Norman",
+          "tipus": ["Normal"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 22,
+          "nom": "Gimnàs de la Ciutat de Mossdeep",
+          "lider": "Tate & Liza",
+          "tipus": ["Psychic"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 23,
+          "nom": "Gimnàs de la Ciutat de Slateport",
+          "lider": "Norman",
+          "tipus": ["Water"],
+          "localitzacio": "Regió Hoenn"
+        },
+        {
+          "id": 24,
+          "nom": "Gimnàs de la Ciutat de Lilycove",
+          "lider": "Juan",
+          "tipus": ["Water"],
+          "localitzacio": "Regió Hoenn"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Generació IV",
+      "any_lançament": 2006,
+      "jocs": [
+        "Pokémon Diamond",
+        "Pokémon Pearl",
+        "Pokémon Platinum"
+      ],
+      "gimnassos": [
+        {
+          "id": 25,
+          "nom": "Gimnàs de la Ciutat de Oreburgh",
+          "lider": "Roark",
+          "tipus": ["Rock"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 26,
+          "nom": "Gimnàs de la Ciutat de Eterna",
+          "lider": "Gardenia",
+          "tipus": ["Grass"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 27,
+          "nom": "Gimnàs de la Ciutat de Veilstone",
+          "lider": "Maylene",
+          "tipus": ["Fighting"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 28,
+          "nom": "Gimnàs de la Ciutat de Hearthome",
+          "lider": "Fantina",
+          "tipus": ["Ghost"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 29,
+          "nom": "Gimnàs de la Ciutat de Canalave",
+          "lider": "Crasher Wake",
+          "tipus": ["Water"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 30,
+          "nom": "Gimnàs de la Ciutat de Snowpoint",
+          "lider": "Candice",
+          "tipus": ["Ice"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 31,
+          "nom": "Gimnàs de la Ciutat de Sunyshore",
+          "lider": "Volkner",
+          "tipus": ["Electric"],
+          "localitzacio": "Regió Sinnoh"
+        },
+        {
+          "id": 32,
+          "nom": "Gimnàs de la Ciutat de Veilstone",
+          "lider": "Aaron",
+          "tipus": ["Bug"],
+          "localitzacio": "Regió Sinnoh"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nom": "Generació V",
+      "any_lançament": 2010,
+      "jocs": [
+        "Pokémon Black",
+        "Pokémon White",
+        "Pokémon Black 2",
+        "Pokémon White 2"
+      ],
+      "gimnassos": [
+        {
+          "id": 33,
+          "nom": "Gimnàs de la Ciutat de Striaton",
+          "lider": "Cilan",
+          "tipus": ["Grass"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 34,
+          "nom": "Gimnàs de la Ciutat de Nacrene",
+          "lider": "Lenora",
+          "tipus": ["Normal"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 35,
+          "nom": "Gimnàs de la Ciutat de Castelia",
+          "lider": "Burgh",
+          "tipus": ["Bug"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 36,
+          "nom": "Gimnàs de la Ciutat de Nimbasa",
+          "lider": "Elesa",
+          "tipus": ["Electric"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 37,
+          "nom": "Gimnàs de la Ciutat de Driftveil",
+          "lider": "Clay",
+          "tipus": ["Ground"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 38,
+          "nom": "Gimnàs de la Ciutat de Mistralton",
+          "lider": "Skyla",
+          "tipus": ["Flying"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 39,
+          "nom": "Gimnàs de la Ciutat de Icirrus",
+          "lider": "Drayden",
+          "tipus": ["Dragon"],
+          "localitzacio": "Regió Unova"
+        },
+        {
+          "id": 40,
+          "nom": "Gimnàs de la Ciutat de Opelucid",
+          "lider": "Iris",
+          "tipus": ["Dragon"],
+          "localitzacio": "Regió Unova"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nom": "Generació VI",
+      "any_lançament": 2013,
+      "jocs": [
+        "Pokémon X",
+        "Pokémon Y"
+      ],
+      "gimnassos": [
+        {
+          "id": 41,
+          "nom": "Gimnàs de la Ciutat de Santalune",
+          "lider": "Viola",
+          "tipus": ["Bug"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 42,
+          "nom": "Gimnàs de la Ciutat de Lumiose",
+          "lider": "Clemont",
+          "tipus": ["Electric"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 43,
+          "nom": "Gimnàs de la Ciutat de Shalour",
+          "lider": "Korrina",
+          "tipus": ["Fighting"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 44,
+          "nom": "Gimnàs de la Ciutat de Ambrette",
+          "lider": "Grant",
+          "tipus": ["Rock"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 45,
+          "nom": "Gimnàs de la Ciutat de Coumarine",
+          "lider": "Ramos",
+          "tipus": ["Grass"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 46,
+          "nom": "Gimnàs de la Ciutat de Laverre",
+          "lider": "Valerie",
+          "tipus": ["Fairy"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 47,
+          "nom": "Gimnàs de la Ciutat de Anistar",
+          "lider": "Olympia",
+          "tipus": ["Psychic"],
+          "localitzacio": "Regió Kalos"
+        },
+        {
+          "id": 48,
+          "nom": "Gimnàs de la Ciutat de Snowbelle",
+          "lider": "Wulfric",
+          "tipus": ["Ice"],
+          "localitzacio": "Regió Kalos"
         }
       ]
     }

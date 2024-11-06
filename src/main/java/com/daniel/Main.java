@@ -38,7 +38,7 @@ public class Main {
             System.out.println(contingutHTML);
 
             // Escribir el HTML generado en un archivo de salida
-            escriuHTML(contingutHTML, "output/index.html");  // Guardar el archivo generado en "output/index.html"
+            escriuHTML(contingutHTML, "index.html");  // Guardar el archivo generado en "output/index.html"
         } else {
             System.out.println("Error al cargar los datos desde el archivo JSON.");
         }
