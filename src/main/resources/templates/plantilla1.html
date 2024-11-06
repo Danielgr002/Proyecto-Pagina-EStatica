@@ -2,26 +2,24 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Detalls dels Gimnassos</title>
+    <title>Detalles de los Gimnasios</title>
     <link rel="stylesheet" type="text/css" href="../css/gimnasio.css">
 </head>
 <body>
-<h1>Detalls dels Gimnassos</h1>
+<h1>Detalles de los Gimnasios</h1>
 
 <th:block th:if="${generacions != null}">
     <table border="2" cellpadding="4">
         <thead>
         <tr>
-            <th>ID</th>
-            <th>Nom Generació</th>
-            <th>Any de Llançament</th>
-            <th>Jocs</th>
-            <th>Gimnassos</th>
+            <th>Nombre Generación</th>
+            <th>Año de Lanzamiento</th>
+            <th>Saga</th>
+            <th>Gimnasios</th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="generacio : ${generacions}">
-            <td th:text="${generacio.id}">--</td>
             <td th:text="${generacio.nom}">--</td>
             <td th:text="${generacio.any_lançament}">--</td>
             <td>
@@ -33,9 +31,13 @@
                 <ul>
                     <li th:each="gimnasio : ${generacio.gimnassos}">
                         <b th:text="${gimnasio.nom}">--</b> (Líder: <span th:text="${gimnasio.lider}">--</span>)<br>
-                        Tipus: <span th:text="${tipos != null ? #strings.join(gimnasio.tipos, ', ') : ''}"></span><br>
-                        Localització: <span th:text="${gimnasio.localizacion}">--</span><br>
+                        Tipo:
+                        <span th:each="tipo, iterStat : ${gimnasio.tipus}">
+                            <span th:text="${tipo}"></span><span th:if="${!iterStat.last}">, </span>
+                        </span><br>
+                        Localización: <span th:text="${gimnasio.localizacion}">--</span><br>
                     </li>
+
                 </ul>
             </td>
         </tr>

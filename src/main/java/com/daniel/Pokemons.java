@@ -34,9 +34,9 @@ class Generaciones{
     @JsonProperty("any_lançament")
     private int any_lançament;
     @JsonProperty("jocs")
-    private ArrayList<String> jocs;
+    private List<String> jocs;
     @JsonProperty("gimnassos")
-    private ArrayList<Gimnasios> gimnassos;
+    private List<Gimnasios> gimnassos;
 
     public Generaciones(int id, String nom, int any_lançament, ArrayList<String> jocs, ArrayList<Gimnasios> gimnassos) {
         this.id = id;
@@ -61,11 +61,11 @@ class Generaciones{
         return any_lançament;
     }
 
-    public ArrayList<String> getJocs() {
+    public List<String> getJocs() {
         return jocs;
     }
 
-    public ArrayList<Gimnasios> getGimnassos() {
+    public List<Gimnasios> getGimnassos() {
         return gimnassos;
     }
 
@@ -81,11 +81,11 @@ class Generaciones{
         this.any_lançament = any_lançament;
     }
 
-    public void setJocs(ArrayList<String> jocs) {
+    public void setJocs(List<String> jocs) {
         this.jocs = jocs;
     }
 
-    public void setGimnassos(ArrayList<Gimnasios> gimnassos) {
+    public void setGimnassos(List<Gimnasios> gimnassos) {
         this.gimnassos = gimnassos;
     }
 }
@@ -98,7 +98,7 @@ class Gimnasios {
     @JsonProperty("lider")
     private String lider;
     @JsonProperty("tipus")
-    private List<String> tipos = new ArrayList<>();
+    private List<String> tipus;
     @JsonProperty("localitzacio")
     private String localizacion;
 
@@ -109,7 +109,7 @@ class Gimnasios {
         this.id = id;
         this.nom = nom;
         this.lider = lider;
-        this.tipos = tipus;
+        this.tipus = tipus;
         this.localizacion = localizacion;
     }
 
@@ -126,7 +126,7 @@ class Gimnasios {
     }
 
     public List<String> getTipus() {
-        return tipos;
+        return tipus;
     }
 
     public String getLocalizacion() {
@@ -145,8 +145,8 @@ class Gimnasios {
         this.lider = lider;
     }
 
-    public void setTipus(ArrayList<String> tipus) {
-        this.tipos = tipus;
+    public void setTipus(List<String> tipus) {
+        this.tipus = tipus;
     }
 
     public void setLocalizacion(String localizacion) {
