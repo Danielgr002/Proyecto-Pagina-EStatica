@@ -98,7 +98,7 @@ class Gimnasios {
     @JsonProperty("lider")
     private String lider;
     @JsonProperty("tipus")
-    private List<String> tipus;
+    private List<String> tipos = new ArrayList<>();
     @JsonProperty("localitzacio")
     private String localizacion;
 
@@ -109,7 +109,7 @@ class Gimnasios {
         this.id = id;
         this.nom = nom;
         this.lider = lider;
-        this.tipus = tipus;
+        this.tipos = tipus;
         this.localizacion = localizacion;
     }
 
@@ -126,7 +126,7 @@ class Gimnasios {
     }
 
     public List<String> getTipus() {
-        return tipus;
+        return tipos;
     }
 
     public String getLocalizacion() {
@@ -146,7 +146,7 @@ class Gimnasios {
     }
 
     public void setTipus(ArrayList<String> tipus) {
-        this.tipus = tipus;
+        this.tipos = tipus;
     }
 
     public void setLocalizacion(String localizacion) {
