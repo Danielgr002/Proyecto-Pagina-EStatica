@@ -1,48 +1,28 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Detalles de los Gimnasios</title>
-    <link rel="stylesheet" type="text/css" href="../css/gimnasio.css">
+    <title>Página Principal - Generaciones Pokémon</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<h1>Detalles de los Gimnasios</h1>
+<header>
+    <h1>Generaciones de Pokémon</h1>
+    <p>¡¡Explora las diferentes generaciones de Pokémon y conoce sus gimnasios y pruebas!!</p>
+</header>
 
-<th:block th:if="${generacions != null}">
-    <table border="2" cellpadding="4">
-        <thead>
-        <tr>
-            <th>Nombre Generación</th>
-            <th>Año de Lanzamiento</th>
-            <th>Saga</th>
-            <th>Gimnasios</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="generacio : ${generacions}">
-            <td th:text="${generacio.nom}">--</td>
-            <td th:text="${generacio.any_lançament}">--</td>
-            <td>
-                <ul>
-                    <li th:each="joc : ${generacio.jocs}" th:text="${joc}">--</li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li th:each="gimnasio : ${generacio.gimnassos}">
-                        <b th:text="${gimnasio.nom}">--</b> (Líder: <span th:text="${gimnasio.lider}">--</span>)<br>
-                        Tipo:
-                        <span th:each="tipo, iterStat : ${gimnasio.tipus}">
-                            <span th:text="${tipo}"></span><span th:if="${!iterStat.last}">, </span>
-                        </span><br>
-                        Localización: <span th:text="${gimnasio.localizacion}">--</span><br>
-                    </li>
-
-                </ul>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</th:block>
+<main>
+    <section>
+        <h2>Lista de Generaciones</h2>
+        <ul>
+            <li th:each="generacion : ${generacions}">
+                <!-- Concatenación correcta del nombre y año de lanzamiento -->
+                <h3 th:text="${generacion.nom + ' (' + generacion.any_lanzamiento + ')'}"></h3>
+                <p>Juegos: <span th:text="${#strings.arrayJoin(generacion.jocs, ', ')}"></span></p>
+                <a th:href="@{'detalles_' + ${generacion.id} + '.html'}">Ver detalles de gimnasios y pruebas</a>
+            </li>
+        </ul>
+    </section>
+</main>
 </body>
 </html>

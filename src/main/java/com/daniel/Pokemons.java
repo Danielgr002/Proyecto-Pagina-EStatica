@@ -31,17 +31,17 @@ class Generaciones{
     private int id;
     @JsonProperty("nom")
     private String nom;
-    @JsonProperty("any_lançament")
-    private int any_lançament;
+    @JsonProperty("any_lanzamiento")
+    private int any_lanzamiento;
     @JsonProperty("jocs")
     private List<String> jocs;
     @JsonProperty("gimnassos")
     private List<Gimnasios> gimnassos;
 
-    public Generaciones(int id, String nom, int any_lançament, ArrayList<String> jocs, ArrayList<Gimnasios> gimnassos) {
+    public Generaciones(int id, String nom, int any_lanzamiento, ArrayList<String> jocs, ArrayList<Gimnasios> gimnassos) {
         this.id = id;
         this.nom = nom;
-        this.any_lançament = any_lançament;
+        this.any_lanzamiento = any_lanzamiento;
         this.jocs = jocs;
         this.gimnassos = gimnassos;
     }
@@ -57,8 +57,8 @@ class Generaciones{
         return nom;
     }
 
-    public int getAny_lançament() {
-        return any_lançament;
+    public int getAny_lanzamiento() {
+        return any_lanzamiento;
     }
 
     public List<String> getJocs() {
@@ -77,8 +77,8 @@ class Generaciones{
         this.nom = nom;
     }
 
-    public void setAny_lançament(int any_lançament) {
-        this.any_lançament = any_lançament;
+    public void setAny_lanzamiento(int any_lanzamiento) {
+        this.any_lanzamiento = any_lanzamiento;
     }
 
     public void setJocs(List<String> jocs) {

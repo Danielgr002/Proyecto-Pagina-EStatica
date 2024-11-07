@@ -3,7 +3,7 @@
     {
       "id": 1,
       "nom": "Generación I",
-      "any_lançament": 1996,
+      "any_lanzamiento": 1996,
       "jocs": [
         "Pokémon Rojo",
         "Pokémon Azul",
@@ -71,7 +71,7 @@
     {
       "id": 2,
       "nom": "Generación II",
-      "any_lançament": 1999,
+      "any_lanzamiento": 1999,
       "jocs": [
         "Pokémon Oro",
         "Pokémon Plata",
@@ -139,7 +139,7 @@
     {
       "id": 3,
       "nom": "Generación III",
-      "any_lançament": 2002,
+      "any_lanzamiento": 2002,
       "jocs": [
         "Pokémon Rubí",
         "Pokémon Zafiro",
@@ -207,7 +207,7 @@
     {
       "id": 4,
       "nom": "Generación IV",
-      "any_lançament": 2006,
+      "any_lanzamiento": 2006,
       "jocs": [
         "Pokémon Diamante",
         "Pokémon Perla",
@@ -268,7 +268,7 @@
     {
       "id": 5,
       "nom": "Generación V",
-      "any_lançament": 2010,
+      "any_lanzamiento": 2010,
       "jocs": [
         "Pokémon Negro",
         "Pokémon Blanco",
@@ -330,7 +330,7 @@
     {
       "id": 6,
       "nom": "Generación VI",
-      "any_lançament": 2013,
+      "any_lanzamiento": 2013,
       "jocs": [
         "Pokémon X",
         "Pokémon Y"
@@ -390,7 +390,7 @@
     {
       "id": 7,
       "nom": "Generación VII",
-      "any_lançament": 2016,
+      "any_lanzamiento": 2016,
       "jocs": [
         "Pokémon Sol",
         "Pokémon Luna",

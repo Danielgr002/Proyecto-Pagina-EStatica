@@ -13,7 +13,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
-        templateResolver.setPrefix("templates/");  // Asegúrate de que las plantillas están en la carpeta "templates"
+        templateResolver.setPrefix("templates/");
         templateResolver.setSuffix(".html");
 
         TemplateEngine templateEngine = new TemplateEngine();
@@ -30,10 +30,21 @@ public class Main {
 
             System.out.println(contingutHTML);
 
-            escriuHTML(contingutHTML, "index.html");
+            escriuHTML(contingutHTML, "src/main/resources/static/index.html");
+
+            for (Generaciones generacion : pok.getGeneraciones()) {
+                Context contextDetalles = new Context();
+                contextDetalles.setVariable("generacion", generacion);
+
+                String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
+                String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
+
+                escriuHTML(detallesHTML, fileName);
+            }
         } else {
             System.out.println("Error al cargar los datos desde el archivo JSON.");
         }
+
     }
 
     public static Pokemons cargarDatosDesdeJSON(String path) {
