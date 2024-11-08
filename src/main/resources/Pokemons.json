@@ -7,64 +7,59 @@
       "jocs": [
         "Pokémon Rojo",
         "Pokémon Azul",
-        "Pokémon Amarillo"
+        "Pokémon Amarillo",
+        "Pokemón Verde"
       ],
+      "localitzacio": "Región Kanto",
       "gimnassos": [
         {
           "id": 1,
           "nom": "Gimnasio de la Ciudad de Viridian",
           "lider": "Giovanni",
-          "tipus": ["Tierra"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Tierra"]
+
         },
         {
           "id": 2,
           "nom": "Gimnasio de la Ciudad de Pewter",
           "lider": "Brock",
-          "tipus": ["Roca"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Roca"]
         },
         {
           "id": 3,
           "nom": "Gimnasio de la Ciudad de Cerulean",
           "lider": "Misty",
-          "tipus": ["Agua"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Agua"]
         },
         {
           "id": 4,
           "nom": "Gimnasio de la Ciudad de Vermilion",
           "lider": "Lt. Surge",
-          "tipus": ["Eléctrico"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Eléctrico"]
         },
         {
           "id": 5,
           "nom": "Gimnasio de la Ciudad de Celadon",
           "lider": "Erika",
-          "tipus": ["Planta"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Planta"]
         },
         {
           "id": 6,
           "nom": "Gimnasio de la Ciudad de Fuchsia",
           "lider": "Koga",
-          "tipus": ["Veneno"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Veneno"]
         },
         {
           "id": 7,
           "nom": "Gimnasio de la Ciudad de Saffron",
           "lider": "Sabrina",
-          "tipus": ["Psíquico"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Psíquico"]
         },
         {
           "id": 8,
           "nom": "Gimnasio de la Ciudad de Cinnabar",
           "lider": "Blaine",
-          "tipus": ["Fuego"],
-          "localitzacio": "Región Kanto"
+          "tipus": ["Fuego"]
         }
       ]
     },
@@ -77,62 +72,55 @@
         "Pokémon Plata",
         "Pokémon Cristal"
       ],
+      "localitzacio": "Región Johto",
       "gimnassos": [
         {
           "id": 9,
           "nom": "Gimnasio de la Ciudad de Violet",
           "lider": "Falkner",
-          "tipus": ["Volador"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Volador"]
         },
         {
           "id": 10,
           "nom": "Gimnasio de la Ciudad de Azalea",
           "lider": "Bugsy",
-          "tipus": ["Bicho"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Bicho"]
         },
         {
           "id": 11,
           "nom": "Gimnasio de la Ciudad de Goldenrod",
           "lider": "Whitney",
-          "tipus": ["Normal"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Normal"]
         },
         {
           "id": 12,
           "nom": "Gimnasio de la Ciudad de Ecruteak",
           "lider": "Morty",
-          "tipus": ["Fantasma"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Fantasma"]
         },
         {
           "id": 13,
           "nom": "Gimnasio de la Ciudad de Cianwood",
           "lider": "Chuck",
-          "tipus": ["Lucha"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Lucha"]
         },
         {
           "id": 14,
           "nom": "Gimnasio de la Ciudad de Olivine",
           "lider": "Jasmine",
-          "tipus": ["Acero"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Acero"]
         },
         {
           "id": 15,
           "nom": "Gimnasio de la Ciudad de Mahogany",
           "lider": "Pryce",
-          "tipus": ["Hielo"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Hielo"]
         },
         {
           "id": 16,
           "nom": "Gimnasio de la Ciudad de Blackthorn",
           "lider": "Clair",
-          "tipus": ["Dragón"],
-          "localitzacio": "Región Johto"
+          "tipus": ["Dragón"]
         }
       ]
     },
@@ -145,62 +133,55 @@
         "Pokémon Zafiro",
         "Pokémon Esmeralda"
       ],
+      "localitzacio": "Región Hoenn",
       "gimnassos": [
         {
           "id": 17,
           "nom": "Gimnasio de la Ciudad de Rustboro",
           "lider": "Roxanne",
-          "tipus": ["Roca"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Roca"]
         },
         {
           "id": 18,
           "nom": "Gimnasio de la Ciudad de Dewford",
           "lider": "Brawly",
-          "tipus": ["Lucha"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Lucha"]
         },
         {
           "id": 19,
           "nom": "Gimnasio de la Ciudad de Mauville",
           "lider": "Wattson",
-          "tipus": ["Eléctrico"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Eléctrico"]
         },
         {
           "id": 20,
           "nom": "Gimnasio de la Ciudad de Fiery Path",
           "lider": "Flannery",
-          "tipus": ["Fuego"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Fuego"]
         },
         {
           "id": 21,
           "nom": "Gimnasio de la Ciudad de Petalburg",
           "lider": "Norman",
-          "tipus": ["Normal"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Normal"]
         },
         {
           "id": 22,
           "nom": "Gimnasio de la Ciudad de Mossdeep",
           "lider": "Tate & Liza",
-          "tipus": ["Psíquico"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Psíquico"]
         },
         {
           "id": 23,
           "nom": "Gimnasio de la Ciudad de Slateport",
           "lider": "Norman",
-          "tipus": ["Agua"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Agua"]
         },
         {
           "id": 24,
           "nom": "Gimnasio de la Ciudad de Lilycove",
           "lider": "Juan",
-          "tipus": ["Agua"],
-          "localitzacio": "Región Hoenn"
+          "tipus": ["Agua"]
         }
       ]
     },
@@ -213,55 +194,49 @@
         "Pokémon Perla",
         "Pokémon Platino"
       ],
+      "localitzacio": "Región Sinnoh",
       "gimnassos": [
         {
           "id": 25,
           "nom": "Gimnasio de la Ciudad de Oreburgh",
           "lider": "Roark",
-          "tipus": ["Roca"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Roca"]
         },
         {
           "id": 26,
           "nom": "Gimnasio de la Ciudad de Eterna",
           "lider": "Gardenia",
-          "tipus": ["Planta"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Planta"]
         },
         {
           "id": 27,
           "nom": "Gimnasio de la Ciudad de Veilstone",
           "lider": "Maylene",
-          "tipus": ["Lucha"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Lucha"]
         },
         {
           "id": 28,
           "nom": "Gimnasio de la Ciudad de Hearthome",
           "lider": "Fantina",
-          "tipus": ["Fantasma"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Fantasma"]
         },
         {
           "id": 29,
           "nom": "Gimnasio de la Ciudad de Canalave",
           "lider": "Crasher Wake",
-          "tipus": ["Agua"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Agua"]
         },
         {
           "id": 30,
           "nom": "Gimnasio de la Ciudad de Snowpoint",
           "lider": "Candice",
-          "tipus": ["Hielo"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Hielo"]
         },
         {
           "id": 31,
           "nom": "Gimnasio de la Ciudad de Sunyshore",
           "lider": "Volkner",
-          "tipus": ["Eléctrico"],
-          "localitzacio": "Región Sinnoh"
+          "tipus": ["Eléctrico"]
         }
       ]
     },
@@ -275,55 +250,49 @@
         "Pokémon Negro 2",
         "Pokémon Blanco 2"
       ],
+      "localitzacio": "Región Unova",
       "gimnassos": [
         {
           "id": 32,
           "nom": "Gimnasio de la Ciudad de Striaton",
           "lider": "Cilan",
-          "tipus": ["Planta", "Fuego", "Agua"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Planta", "Fuego", "Agua"]
         },
         {
           "id": 33,
           "nom": "Gimnasio de la Ciudad de Nacrene",
           "lider": "Lenora",
-          "tipus": ["Normal"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Normal"]
         },
         {
           "id": 34,
           "nom": "Gimnasio de la Ciudad de Castelia",
           "lider": "Burgh",
-          "tipus": ["Bicho"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Bicho"]
         },
         {
           "id": 35,
           "nom": "Gimnasio de la Ciudad de Nimbasa",
           "lider": "Elesa",
-          "tipus": ["Eléctrico"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Eléctrico"]
         },
         {
           "id": 36,
           "nom": "Gimnasio de la Ciudad de Mistralton",
           "lider": "Skyla",
-          "tipus": ["Volador"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Volador"]
         },
         {
           "id": 37,
           "nom": "Gimnasio de la Ciudad de Icirrus",
           "lider": "Brycen",
-          "tipus": ["Hielo"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Hielo"]
         },
         {
           "id": 38,
           "nom": "Gimnasio de la Ciudad de Opelucid",
           "lider": "Drayden",
-          "tipus": ["Dragón"],
-          "localitzacio": "Región Unova"
+          "tipus": ["Dragón"]
         }
       ]
     },
@@ -335,55 +304,49 @@
         "Pokémon X",
         "Pokémon Y"
       ],
+      "localitzacio": "Región Kalos",
       "gimnassos": [
         {
           "id": 40,
           "nom": "Gimnasio de la Ciudad de Santalune",
           "lider": "Viola",
-          "tipus": ["Bicho"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Bicho"]
         },
         {
           "id": 41,
           "nom": "Gimnasio de la Ciudad de Lumiose",
           "lider": "Clemont",
-          "tipus": ["Eléctrico"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Eléctrico"]
         },
         {
           "id": 42,
           "nom": "Gimnasio de la Ciudad de Shalour",
           "lider": "Korrina",
-          "tipus": ["Lucha"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Lucha"]
         },
         {
           "id": 43,
           "nom": "Gimnasio de la Ciudad de Coumarine",
           "lider": "Ramos",
-          "tipus": ["Planta"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Planta"]
         },
         {
           "id": 44,
           "nom": "Gimnasio de la Ciudad de Laverre",
           "lider": "Valérie",
-          "tipus": ["Hada"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Hada"]
         },
         {
           "id": 45,
           "nom": "Gimnasio de la Ciudad de Anistar",
           "lider": "Olympia",
-          "tipus": ["Psíquico"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Psíquico"]
         },
         {
           "id": 46,
           "nom": "Gimnasio de la Ciudad de Dendemille",
           "lider": "Wulfric",
-          "tipus": ["Hielo"],
-          "localitzacio": "Región Kalos"
+          "tipus": ["Hielo"]
         }
       ]
     },
@@ -397,34 +360,73 @@
         "Pokémon Ultrasol",
         "Pokémon Ultraluna"
       ],
+      "localitzacio": "Región Alola",
       "gimnassos": [
         {
           "id": 47,
-          "nom": "Prueba de Melemele",
-          "lider": "Ilima",
-          "tipus": ["Normal"],
-          "localitzacio": "Región Alola"
+          "nom": "Prueba de Liam",
+          "lider": "Liam",
+          "tipus": ["Normal"]
         },
         {
           "id": 48,
           "nom": "Prueba de Akala",
           "lider": "Lana",
-          "tipus": ["Agua"],
-          "localitzacio": "Región Alola"
+          "tipus": ["Agua"]
         },
         {
           "id": 49,
-          "nom": "Prueba de Ula'Ula",
+          "nom": "Prueba de Ula-Ula",
           "lider": "Mallow",
-          "tipus": ["Planta"],
-          "localitzacio": "Región Alola"
+          "tipus": ["Planta"]
         },
         {
           "id": 50,
           "nom": "Prueba de Poni",
           "lider": "Hapu",
-          "tipus": ["Tierra"],
-          "localitzacio": "Región Alola"
+          "tipus": ["Tierra"]
+        },
+        {
+          "id": 51,
+          "nom": "Prueba de Kaudan",
+          "lider": "Kaudan",
+          "tipus": ["Lucha"]
+        },
+        {
+          "id": 52,
+          "nom": "Prueba de Nereida",
+          "lider": "Nereida",
+          "tipus": ["Agua"]
+        },
+        {
+          "id": 53,
+          "nom": "Prueba de Kiawe",
+          "lider": "Kiawe",
+          "tipus": ["Fuego"]
+        },
+        {
+          "id": 54,
+          "nom": "Prueba de Lulú",
+          "lider": "Lulú",
+          "tipus": ["Planta"]
+        },
+        {
+          "id": 55,
+          "nom": "Prueba de Mayla",
+          "lider": "Mayla",
+          "tipus": ["Roca"]
+        },
+        {
+          "id": 56,
+          "nom": "Prueba de Zarala",
+          "lider": "Zarala",
+          "tipus": ["Fantasma"]
+        },
+        {
+          "id": 57,
+          "nom": "Prueba de Hela",
+          "lider": "Hela",
+          "tipus": ["Tierra"]
         }
       ]
     }

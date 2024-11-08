@@ -1,6 +1,5 @@
 package com.daniel;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
@@ -35,18 +34,21 @@ class Generaciones{
     private int any_lanzamiento;
     @JsonProperty("jocs")
     private List<String> jocs;
+    @JsonProperty("localitzacio")
+    private String localitzacio;
     @JsonProperty("gimnassos")
     private List<Gimnasios> gimnassos;
 
-    public Generaciones(int id, String nom, int any_lanzamiento, ArrayList<String> jocs, ArrayList<Gimnasios> gimnassos) {
+    public Generaciones() {
+    }
+
+    public Generaciones(int id, String nom, int any_lanzamiento, List<String> jocs, String localitzacio, List<Gimnasios> gimnassos) {
         this.id = id;
         this.nom = nom;
         this.any_lanzamiento = any_lanzamiento;
         this.jocs = jocs;
+        this.localitzacio = localitzacio;
         this.gimnassos = gimnassos;
-    }
-
-    public Generaciones() {
     }
 
     public int getId() {
@@ -81,6 +83,14 @@ class Generaciones{
         this.any_lanzamiento = any_lanzamiento;
     }
 
+    public String getLocalitzacio() {
+        return localitzacio;
+    }
+
+    public void setLocalitzacio(String localitzacio) {
+        this.localitzacio = localitzacio;
+    }
+
     public void setJocs(List<String> jocs) {
         this.jocs = jocs;
     }
@@ -99,18 +109,15 @@ class Gimnasios {
     private String lider;
     @JsonProperty("tipus")
     private List<String> tipus;
-    @JsonProperty("localitzacio")
-    private String localizacion;
 
     public Gimnasios(){
     }
 
-    public Gimnasios(int id, String nom, String lider, ArrayList<String> tipus, String localizacion) {
+    public Gimnasios(int id, String nom, String lider, ArrayList<String> tipus) {
         this.id = id;
         this.nom = nom;
         this.lider = lider;
         this.tipus = tipus;
-        this.localizacion = localizacion;
     }
 
     public int getId() {
@@ -129,10 +136,6 @@ class Gimnasios {
         return tipus;
     }
 
-    public String getLocalizacion() {
-        return localizacion;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
@@ -147,9 +150,5 @@ class Gimnasios {
 
     public void setTipus(List<String> tipus) {
         this.tipus = tipus;
-    }
-
-    public void setLocalizacion(String localizacion) {
-        this.localizacion = localizacion;
     }
 }

@@ -16,9 +16,9 @@
         <h2>Lista de Generaciones</h2>
         <ul>
             <li th:each="generacion : ${generacions}">
-                <!-- Concatenación correcta del nombre y año de lanzamiento -->
                 <h3 th:text="${generacion.nom + ' (' + generacion.any_lanzamiento + ')'}"></h3>
                 <p>Juegos: <span th:text="${#strings.arrayJoin(generacion.jocs, ', ')}"></span></p>
+                <p>Ubicación: <span th:text="${generacion.localitzacio}"></span></p>
                 <a th:href="@{'detalles_' + ${generacion.id} + '.html'}">Ver detalles de gimnasios y pruebas</a>
             </li>
         </ul>
