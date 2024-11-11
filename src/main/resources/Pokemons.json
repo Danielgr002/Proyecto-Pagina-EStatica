@@ -250,7 +250,7 @@
         "Pokémon Negro 2",
         "Pokémon Blanco 2"
       ],
-      "localitzacio": "Región Unova",
+      "localitzacio": "Región Teselia",
       "gimnassos": [
         {
           "id": 32,
@@ -365,66 +365,60 @@
         {
           "id": 47,
           "nom": "Prueba de Liam",
-          "lider": "Liam",
+          "lider": "Capitan Liam",
           "tipus": ["Normal"]
         },
         {
-          "id": 48,
-          "nom": "Prueba de Akala",
-          "lider": "Lana",
-          "tipus": ["Agua"]
-        },
-        {
-          "id": 49,
-          "nom": "Prueba de Ula-Ula",
-          "lider": "Mallow",
-          "tipus": ["Planta"]
-        },
-        {
-          "id": 50,
-          "nom": "Prueba de Poni",
-          "lider": "Hapu",
-          "tipus": ["Tierra"]
-        },
-        {
           "id": 51,
-          "nom": "Prueba de Kaudan",
-          "lider": "Kaudan",
+          "nom": "Gran Prueba de Kaudan",
+          "lider": "Kahuna Kaudan",
           "tipus": ["Lucha"]
         },
         {
           "id": 52,
           "nom": "Prueba de Nereida",
-          "lider": "Nereida",
+          "lider": "Capitana Nereida",
           "tipus": ["Agua"]
         },
         {
           "id": 53,
           "nom": "Prueba de Kiawe",
-          "lider": "Kiawe",
+          "lider": "Capitan Kiawe",
           "tipus": ["Fuego"]
         },
         {
           "id": 54,
           "nom": "Prueba de Lulú",
-          "lider": "Lulú",
+          "lider": "Capitana Lulú",
           "tipus": ["Planta"]
         },
         {
           "id": 55,
-          "nom": "Prueba de Mayla",
-          "lider": "Mayla",
+          "nom": "Gran prueba de Mayla",
+          "lider": "Kahuna Mayla",
           "tipus": ["Roca"]
         },
         {
           "id": 56,
+          "nom": "Prueba de Chris",
+          "lider": "Capitan Chris",
+          "tipus": ["Electrico"]
+        },
+        {
+          "id": 56,
           "nom": "Prueba de Zarala",
-          "lider": "Zarala",
+          "lider": "Capitana Zarala",
           "tipus": ["Fantasma"]
         },
         {
           "id": 57,
-          "nom": "Prueba de Hela",
+          "nom": "Gran prueba de Denio",
+          "lider": "Kahuna Denio",
+          "tipus": ["Siniestro"]
+        },
+        {
+          "id": 57,
+          "nom": "Gran Prueba de Hela",
           "lider": "Hela",
           "tipus": ["Tierra"]
         }
