@@ -19,6 +19,7 @@
             <li th:each="gimnasio : ${generacion.gimnassos}">
                 <h3 th:text="${gimnasio.nom}"></h3>
                 <p>Líder: <span th:text="${gimnasio.lider}"></span></p>
+                <img th:src="@{${gimnasio.fotoUrl}}" alt="Foto del lider de gimnasio" style="width: 150px; height: auto; border-radius: 8px;">
                 <p>Tipo: <span th:text="${#strings.arrayJoin(gimnasio.tipus, ', ')}"></span></p>
             </li>
         </ul>

@@ -16,6 +16,7 @@
           "id": 1,
           "nom": "Gimnasio de la Ciudad de Viridian",
           "lider": "Giovanni",
+          "fotoUrl": "imatges/Giovanni.jpg",
           "tipus": ["Tierra"]
 
         },
@@ -23,42 +24,49 @@
           "id": 2,
           "nom": "Gimnasio de la Ciudad de Pewter",
           "lider": "Brock",
+          "fotoUrl": "imatges/Brock.jpg",
           "tipus": ["Roca"]
         },
         {
           "id": 3,
           "nom": "Gimnasio de la Ciudad de Cerulean",
           "lider": "Misty",
+          "fotoUrl": "imatges/Misty.jpg",
           "tipus": ["Agua"]
         },
         {
           "id": 4,
           "nom": "Gimnasio de la Ciudad de Vermilion",
           "lider": "Lt. Surge",
+          "fotoUrl": "imatges/Lt._Surge.jpg",
           "tipus": ["Eléctrico"]
         },
         {
           "id": 5,
           "nom": "Gimnasio de la Ciudad de Celadon",
           "lider": "Erika",
+          "fotoUrl": "imatges/Erika.jpg",
           "tipus": ["Planta"]
         },
         {
           "id": 6,
           "nom": "Gimnasio de la Ciudad de Fuchsia",
           "lider": "Koga",
+          "fotoUrl": "imatges/Koga.jpg",
           "tipus": ["Veneno"]
         },
         {
           "id": 7,
           "nom": "Gimnasio de la Ciudad de Saffron",
           "lider": "Sabrina",
+          "fotoUrl": "imatges/Sabrina.jpg",
           "tipus": ["Psíquico"]
         },
         {
           "id": 8,
           "nom": "Gimnasio de la Ciudad de Cinnabar",
           "lider": "Blaine",
+          "fotoUrl": "imatges/Blaine.jpg",
           "tipus": ["Fuego"]
         }
       ]
@@ -78,48 +86,56 @@
           "id": 9,
           "nom": "Gimnasio de la Ciudad de Violet",
           "lider": "Falkner",
+          "fotoUrl": "imatges/Falkner.jpg",
           "tipus": ["Volador"]
         },
         {
           "id": 10,
           "nom": "Gimnasio de la Ciudad de Azalea",
           "lider": "Bugsy",
+          "fotoUrl": "imatges/Bugsy.jpg",
           "tipus": ["Bicho"]
         },
         {
           "id": 11,
           "nom": "Gimnasio de la Ciudad de Goldenrod",
           "lider": "Whitney",
+          "fotoUrl": "imatges/Whitney.jpg",
           "tipus": ["Normal"]
         },
         {
           "id": 12,
           "nom": "Gimnasio de la Ciudad de Ecruteak",
           "lider": "Morty",
+          "fotoUrl": "imatges/Morty.jpg",
           "tipus": ["Fantasma"]
         },
         {
           "id": 13,
           "nom": "Gimnasio de la Ciudad de Cianwood",
           "lider": "Chuck",
+          "fotoUrl": "imatges/Chuck.jpg",
           "tipus": ["Lucha"]
         },
         {
           "id": 14,
           "nom": "Gimnasio de la Ciudad de Olivine",
           "lider": "Jasmine",
+          "fotoUrl": "imatges/Jasmine.jpg",
           "tipus": ["Acero"]
         },
         {
           "id": 15,
           "nom": "Gimnasio de la Ciudad de Mahogany",
           "lider": "Pryce",
+          "fotoUrl": "imatges/Pryce.jpg",
           "tipus": ["Hielo"]
         },
         {
           "id": 16,
           "nom": "Gimnasio de la Ciudad de Blackthorn",
           "lider": "Clair",
+          "fotoUrl": "imatges/Clair.jpg",
           "tipus": ["Dragón"]
         }
       ]
@@ -139,48 +155,56 @@
           "id": 17,
           "nom": "Gimnasio de la Ciudad de Rustboro",
           "lider": "Roxanne",
+          "fotoUrl": "imatges/Roxanne.jpg",
           "tipus": ["Roca"]
         },
         {
           "id": 18,
           "nom": "Gimnasio de la Ciudad de Dewford",
           "lider": "Brawly",
+          "fotoUrl": "imatges/Brawly.jpg",
           "tipus": ["Lucha"]
         },
         {
           "id": 19,
           "nom": "Gimnasio de la Ciudad de Mauville",
           "lider": "Wattson",
+          "fotoUrl": "imatges/Wattson.jpg",
           "tipus": ["Eléctrico"]
         },
         {
           "id": 20,
           "nom": "Gimnasio de la Ciudad de Fiery Path",
           "lider": "Flannery",
+          "fotoUrl": "imatges/Flannery.jpg",
           "tipus": ["Fuego"]
         },
         {
           "id": 21,
           "nom": "Gimnasio de la Ciudad de Petalburg",
           "lider": "Norman",
+          "fotoUrl": "imatges/Norman.jpg",
           "tipus": ["Normal"]
         },
         {
           "id": 22,
           "nom": "Gimnasio de la Ciudad de Mossdeep",
           "lider": "Tate & Liza",
+          "fotoUrl": "imatges/Tate & Liza.jpg",
           "tipus": ["Psíquico"]
         },
         {
           "id": 23,
-          "nom": "Gimnasio de la Ciudad de Slateport",
-          "lider": "Norman",
-          "tipus": ["Agua"]
+          "nom": "Gimnasio de la Ciudad de Fortree",
+          "lider": "Winona",
+          "fotoUrl": "imatges/Winona.jpg",
+          "tipus": ["Volador"]
         },
         {
           "id": 24,
           "nom": "Gimnasio de la Ciudad de Lilycove",
           "lider": "Juan",
+          "fotoUrl": "imatges/Juan.jpg",
           "tipus": ["Agua"]
         }
       ]
@@ -200,42 +224,49 @@
           "id": 25,
           "nom": "Gimnasio de la Ciudad de Oreburgh",
           "lider": "Roark",
+          "fotoUrl": "imatges/Roark.jpg",
           "tipus": ["Roca"]
         },
         {
           "id": 26,
           "nom": "Gimnasio de la Ciudad de Eterna",
           "lider": "Gardenia",
+          "fotoUrl": "imatges/Gardenia.jpg",
           "tipus": ["Planta"]
         },
         {
           "id": 27,
           "nom": "Gimnasio de la Ciudad de Veilstone",
           "lider": "Maylene",
+          "fotoUrl": "imatges/Maylene.jpg",
           "tipus": ["Lucha"]
         },
         {
           "id": 28,
           "nom": "Gimnasio de la Ciudad de Hearthome",
           "lider": "Fantina",
+          "fotoUrl": "imatges/Fantina.jpg",
           "tipus": ["Fantasma"]
         },
         {
           "id": 29,
           "nom": "Gimnasio de la Ciudad de Canalave",
           "lider": "Crasher Wake",
+          "fotoUrl": "imatges/Crasher Wake.jpg",
           "tipus": ["Agua"]
         },
         {
           "id": 30,
           "nom": "Gimnasio de la Ciudad de Snowpoint",
           "lider": "Candice",
+          "fotoUrl": "imatges/Candice.jpg",
           "tipus": ["Hielo"]
         },
         {
           "id": 31,
           "nom": "Gimnasio de la Ciudad de Sunyshore",
           "lider": "Volkner",
+          "fotoUrl": "imatges/Volkner.jpg",
           "tipus": ["Eléctrico"]
         }
       ]
@@ -255,43 +286,50 @@
         {
           "id": 32,
           "nom": "Gimnasio de la Ciudad de Striaton",
-          "lider": "Cilan",
+          "lider": "Cilan, Chili y Cress",
+          "fotoUrl": "imatges/Cilan.jpg",
           "tipus": ["Planta", "Fuego", "Agua"]
         },
         {
           "id": 33,
           "nom": "Gimnasio de la Ciudad de Nacrene",
           "lider": "Lenora",
+          "fotoUrl": "imatges/Lenora.jpg",
           "tipus": ["Normal"]
         },
         {
           "id": 34,
           "nom": "Gimnasio de la Ciudad de Castelia",
           "lider": "Burgh",
+          "fotoUrl": "imatges/Burgh.jpg",
           "tipus": ["Bicho"]
         },
         {
           "id": 35,
           "nom": "Gimnasio de la Ciudad de Nimbasa",
           "lider": "Elesa",
+          "fotoUrl": "imatges/Elesa.jpg",
           "tipus": ["Eléctrico"]
         },
         {
           "id": 36,
           "nom": "Gimnasio de la Ciudad de Mistralton",
           "lider": "Skyla",
+          "fotoUrl": "imatges/Skyla.jpg",
           "tipus": ["Volador"]
         },
         {
           "id": 37,
           "nom": "Gimnasio de la Ciudad de Icirrus",
           "lider": "Brycen",
+          "fotoUrl": "imatges/Brycen.jpg",
           "tipus": ["Hielo"]
         },
         {
           "id": 38,
           "nom": "Gimnasio de la Ciudad de Opelucid",
           "lider": "Drayden",
+          "fotoUrl": "imatges/Drayden.jpg",
           "tipus": ["Dragón"]
         }
       ]
@@ -310,42 +348,49 @@
           "id": 40,
           "nom": "Gimnasio de la Ciudad de Santalune",
           "lider": "Viola",
+          "fotoUrl": "imatges/Violeta.jpg",
           "tipus": ["Bicho"]
         },
         {
           "id": 41,
           "nom": "Gimnasio de la Ciudad de Lumiose",
           "lider": "Clemont",
+          "fotoUrl": "imatges/Clemont.jpg",
           "tipus": ["Eléctrico"]
         },
         {
           "id": 42,
           "nom": "Gimnasio de la Ciudad de Shalour",
           "lider": "Korrina",
+          "fotoUrl": "imatges/Korrina.jpg",
           "tipus": ["Lucha"]
         },
         {
           "id": 43,
           "nom": "Gimnasio de la Ciudad de Coumarine",
           "lider": "Ramos",
+          "fotoUrl": "imatges/Ramos.jpg",
           "tipus": ["Planta"]
         },
         {
           "id": 44,
           "nom": "Gimnasio de la Ciudad de Laverre",
           "lider": "Valérie",
+          "fotoUrl": "imatges/Valérie.jpg",
           "tipus": ["Hada"]
         },
         {
           "id": 45,
           "nom": "Gimnasio de la Ciudad de Anistar",
           "lider": "Olympia",
+          "fotoUrl": "imatges/Olympia.jpg",
           "tipus": ["Psíquico"]
         },
         {
           "id": 46,
           "nom": "Gimnasio de la Ciudad de Dendemille",
           "lider": "Wulfric",
+          "fotoUrl": "imatges/Wulfric.jpg",
           "tipus": ["Hielo"]
         }
       ]
@@ -366,60 +411,70 @@
           "id": 47,
           "nom": "Prueba de Liam",
           "lider": "Capitan Liam",
+          "fotoUrl": "imatges/Liam.jpg",
           "tipus": ["Normal"]
         },
         {
           "id": 51,
           "nom": "Gran Prueba de Kaudan",
           "lider": "Kahuna Kaudan",
+          "fotoUrl": "imatges/Kaudan.jpg",
           "tipus": ["Lucha"]
         },
         {
           "id": 52,
           "nom": "Prueba de Nereida",
           "lider": "Capitana Nereida",
+          "fotoUrl": "imatges/Nereida.jpg",
           "tipus": ["Agua"]
         },
         {
           "id": 53,
           "nom": "Prueba de Kiawe",
           "lider": "Capitan Kiawe",
+          "fotoUrl": "imatges/Kiawe.jpg",
           "tipus": ["Fuego"]
         },
         {
           "id": 54,
           "nom": "Prueba de Lulú",
           "lider": "Capitana Lulú",
+          "fotoUrl": "imatges/Lulú.jpg",
           "tipus": ["Planta"]
         },
         {
           "id": 55,
           "nom": "Gran prueba de Mayla",
           "lider": "Kahuna Mayla",
+          "fotoUrl": "imatges/Mayla.jpg",
           "tipus": ["Roca"]
         },
         {
           "id": 56,
           "nom": "Prueba de Chris",
           "lider": "Capitan Chris",
+          "fotoUrl": "imatges/Chris.jpg",
           "tipus": ["Electrico"]
         },
         {
           "id": 56,
           "nom": "Prueba de Zarala",
           "lider": "Capitana Zarala",
+          "fotoUrl": "imatges/Zarala.jpg",
           "tipus": ["Fantasma"]
         },
         {
           "id": 57,
           "nom": "Gran prueba de Denio",
           "lider": "Kahuna Denio",
+          "fotoUrl": "imatges/Denio.jpg",
           "tipus": ["Siniestro"]
         },
         {
           "id": 57,
           "nom": "Gran Prueba de Hela",
-          "lider": "Hela",
+          "lider": "Kahuna Hela",
+          "fotoUrl": "imatges/Hela.jpg",
           "tipus": ["Tierra"]
         }
       ]

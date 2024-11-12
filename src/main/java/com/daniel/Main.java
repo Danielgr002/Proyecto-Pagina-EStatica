@@ -5,10 +5,8 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,14 +19,33 @@ public class Main {
 
         Context context = new Context();
 
+        Properties properties = new Properties();
+        String path = "src/main/resources/config.ini";
+        try {
+            FileInputStream input = new FileInputStream(path);
+            InputStreamReader reader = new InputStreamReader(input);
+            properties.load(reader);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+
+
+        String nom = properties.getProperty("nom");
+        String descripcio = properties.getProperty("descripcio");
+
+        //System.out.println(nom);
+        //System.out.println(descripcio);
         Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
 
         if (pok != null) {
+            context.setVariable("nom", nom);
+            context.setVariable("descripcio", descripcio);
             context.setVariable("generacions", pok.getGeneraciones());
 
             String contingutHTML = templateEngine.process("plantilla1", context);
 
-            System.out.println(contingutHTML);
+            //System.out.println(contingutHTML);
 
             escriuHTML(contingutHTML, "src/main/resources/static/index.html");
 
