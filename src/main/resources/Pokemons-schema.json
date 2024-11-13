@@ -14,7 +14,7 @@
             "nom": {
               "type": "string"
             },
-            "any_lançament": {
+            "any_lanzamiento": {
               "type": "integer"
             },
             "jocs": {
@@ -43,7 +43,7 @@
                     "nom": {
                       "type": "string"
                     },
-                    "líder": {
+                    "lider": {
                       "type": "string"
                     },
                     "tipus": {
@@ -61,7 +61,7 @@
                   "required": [
                     "id",
                     "nom",
-                    "líder",
+                    "lider",
                     "tipus",
                     "localitzacio"
                   ]
@@ -75,7 +75,7 @@
                     "nom": {
                       "type": "string"
                     },
-                    "líder": {
+                    "lider": {
                       "type": "string"
                     },
                     "tipus": {
@@ -93,7 +93,199 @@
                   "required": [
                     "id",
                     "nom",
-                    "líder",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
                     "tipus",
                     "localitzacio"
                   ]
@@ -104,7 +296,7 @@
           "required": [
             "id",
             "nom",
-            "any_lançament",
+            "any_lanzamiento",
             "jocs",
             "gimnassos"
           ]
@@ -118,7 +310,7 @@
             "nom": {
               "type": "string"
             },
-            "any_lançament": {
+            "any_lanzamiento": {
               "type": "integer"
             },
             "jocs": {
@@ -147,7 +339,7 @@
                     "nom": {
                       "type": "string"
                     },
-                    "líder": {
+                    "lider": {
                       "type": "string"
                     },
                     "tipus": {
@@ -165,7 +357,7 @@
                   "required": [
                     "id",
                     "nom",
-                    "líder",
+                    "lider",
                     "tipus",
                     "localitzacio"
                   ]
@@ -179,7 +371,7 @@
                     "nom": {
                       "type": "string"
                     },
-                    "líder": {
+                    "lider": {
                       "type": "string"
                     },
                     "tipus": {
@@ -197,7 +389,199 @@
                   "required": [
                     "id",
                     "nom",
-                    "líder",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
                     "tipus",
                     "localitzacio"
                   ]
@@ -208,7 +592,7 @@
           "required": [
             "id",
             "nom",
-            "any_lançament",
+            "any_lanzamiento",
             "jocs",
             "gimnassos"
           ]
@@ -222,7 +606,7 @@
             "nom": {
               "type": "string"
             },
-            "any_lançament": {
+            "any_lanzamiento": {
               "type": "integer"
             },
             "jocs": {
@@ -251,7 +635,7 @@
                     "nom": {
                       "type": "string"
                     },
-                    "líder": {
+                    "lider": {
                       "type": "string"
                     },
                     "tipus": {
@@ -269,7 +653,231 @@
                   "required": [
                     "id",
                     "nom",
-                    "líder",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
                     "tipus",
                     "localitzacio"
                   ]
@@ -280,7 +888,976 @@
           "required": [
             "id",
             "nom",
-            "any_lançament",
+            "any_lanzamiento",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lanzamiento": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lanzamiento",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lanzamiento": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lanzamiento",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lanzamiento": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lanzamiento",
+            "jocs",
+            "gimnassos"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "nom": {
+              "type": "string"
+            },
+            "any_lanzamiento": {
+              "type": "integer"
+            },
+            "jocs": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "gimnassos": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "nom": {
+                      "type": "string"
+                    },
+                    "lider": {
+                      "type": "string"
+                    },
+                    "tipus": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    "localitzacio": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "nom",
+                    "lider",
+                    "tipus",
+                    "localitzacio"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "nom",
+            "any_lanzamiento",
             "jocs",
             "gimnassos"
           ]
