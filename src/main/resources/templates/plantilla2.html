@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title th:text="'Detalles de la ' + ${generacion.nom}"> </title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/Diseño.css">
 </head>
 <body>
 <header>
@@ -18,8 +18,8 @@
         <ul>
             <li th:each="gimnasio : ${generacion.gimnassos}">
                 <h3 th:text="${gimnasio.nom}"></h3>
+                <img th:src="@{${gimnasio.fotoUrl}}" alt="Foto del lider de gimnasio" class="foto-lider">
                 <p>Líder: <span th:text="${gimnasio.lider}"></span></p>
-                <img th:src="@{${gimnasio.fotoUrl}}" alt="Foto del lider de gimnasio" style="width: 150px; height: auto; border-radius: 8px;">
                 <p>Tipo: <span th:text="${#strings.arrayJoin(gimnasio.tipus, ', ')}"></span></p>
             </li>
         </ul>
