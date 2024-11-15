@@ -17,7 +17,7 @@
           "nom": "Gimnasio de la Ciudad Verde",
           "lider": "Giovanni",
           "fotoUrl": "imatges/Giovanni.jpg",
-          "tipus": ["Tierra"]
+          "tipus": ["Tierra🌎"]
 
         },
         {
@@ -25,49 +25,49 @@
           "nom": "Gimnasio de la Ciudad Plateada",
           "lider": "Brock",
           "fotoUrl": "imatges/Brock.jpg",
-          "tipus": ["Roca"]
+          "tipus": ["Roca🪨"]
         },
         {
           "id": 3,
           "nom": "Gimnasio de la Ciudad Celeste",
           "lider": "Misty",
           "fotoUrl": "imatges/Misty.jpg",
-          "tipus": ["Agua"]
+          "tipus": ["Agua💧"]
         },
         {
           "id": 4,
           "nom": "Gimnasio de la Ciudad Carmin",
           "lider": "Teniente Surge",
           "fotoUrl": "imatges/Lt._Surge.jpg",
-          "tipus": ["Eléctrico"]
+          "tipus": ["Eléctrico ⚡"]
         },
         {
           "id": 5,
           "nom": "Gimnasio de la Ciudad Azulona",
           "lider": "Erika",
           "fotoUrl": "imatges/Erika.jpg",
-          "tipus": ["Planta"]
+          "tipus": ["Planta🌿"]
         },
         {
           "id": 6,
           "nom": "Gimnasio de la Ciudad Fucsia",
           "lider": "Koga",
           "fotoUrl": "imatges/Koga.jpg",
-          "tipus": ["Veneno"]
+          "tipus": ["Veneno🌸"]
         },
         {
           "id": 7,
           "nom": "Gimnasio de la Ciudad Azafrán",
           "lider": "Sabrina",
           "fotoUrl": "imatges/Sabrina.jpg",
-          "tipus": ["Psíquico"]
+          "tipus": ["Psíquico🌙"]
         },
         {
           "id": 8,
           "nom": "Gimnasio de las Islas Espuma",
           "lider": "Blaine",
           "fotoUrl": "imatges/Blaine.jpg",
-          "tipus": ["Fuego"]
+          "tipus": ["Fuego🔥"]
         }
       ]
     },
@@ -87,56 +87,56 @@
           "nom": "Gimnasio de la Ciudad Malva",
           "lider": "Pegaso",
           "fotoUrl": "imatges/Falkner.jpg",
-          "tipus": ["Volador"]
+          "tipus": ["Volador🌪"]
         },
         {
           "id": 10,
           "nom": "Gimnasio de la Ciudad de Azalea",
           "lider": "Antón",
           "fotoUrl": "imatges/Bugsy.jpg",
-          "tipus": ["Bicho"]
+          "tipus": ["Bicho🕷"]
         },
         {
           "id": 11,
           "nom": "Gimnasio de la Ciudad Trigal",
           "lider": "Blanca",
           "fotoUrl": "imatges/Whitney.jpg",
-          "tipus": ["Normal"]
+          "tipus": ["Normal🐻"]
         },
         {
           "id": 12,
           "nom": "Gimnasio de la Ciudad Iris",
           "lider": "Morti",
           "fotoUrl": "imatges/Morty.jpg",
-          "tipus": ["Fantasma"]
+          "tipus": ["Fantasma👻"]
         },
         {
           "id": 13,
           "nom": "Gimnasio de la Ciudad Orquídea",
           "lider": "Aníbal",
           "fotoUrl": "imatges/Chuck.jpg",
-          "tipus": ["Lucha"]
+          "tipus": ["Lucha🥊"]
         },
         {
           "id": 14,
           "nom": "Gimnasio de la Ciudad Olivo",
           "lider": "Yasmina",
           "fotoUrl": "imatges/Jasmine.jpg",
-          "tipus": ["Acero"]
+          "tipus": ["Acero⚙️"]
         },
         {
           "id": 15,
           "nom": "Gimnasio de la Ciudad Caoba",
           "lider": "Fredo",
           "fotoUrl": "imatges/Pryce.jpg",
-          "tipus": ["Hielo"]
+          "tipus": ["Hielo❄"]
         },
         {
           "id": 16,
           "nom": "Gimnasio de la Ciudad Endrino",
           "lider": "Débora",
           "fotoUrl": "imatges/Clair.jpg",
-          "tipus": ["Dragón"]
+          "tipus": ["Dragón🌀"]
         }
       ]
     },
@@ -156,56 +156,56 @@
           "nom": "Gimnasio de la Ciudad Férrica",
           "lider": "Petra",
           "fotoUrl": "imatges/Roxanne.jpg",
-          "tipus": ["Roca"]
+          "tipus": ["Roca🪨"]
         },
         {
           "id": 18,
           "nom": "Gimnasio de la Ciudad Azuliza",
           "lider": "Marcial",
           "fotoUrl": "imatges/Brawly.jpg",
-          "tipus": ["Lucha"]
+          "tipus": ["Lucha🥊"]
         },
         {
           "id": 19,
           "nom": "Gimnasio de la Ciudad Malvalona",
           "lider": "Erico",
           "fotoUrl": "imatges/Wattson.jpg",
-          "tipus": ["Eléctrico"]
+          "tipus": ["Eléctrico⚡"]
         },
         {
           "id": 20,
           "nom": "Gimnasio de Pueblo Lavacalda",
           "lider": "Candela",
           "fotoUrl": "imatges/Flannery.jpg",
-          "tipus": ["Fuego"]
+          "tipus": ["Fuego🔥"]
         },
         {
           "id": 21,
           "nom": "Gimnasio de la Ciudad Petalia",
           "lider": "Norman",
           "fotoUrl": "imatges/Norman.jpg",
-          "tipus": ["Normal"]
+          "tipus": ["Normal🐻"]
         },
         {
           "id": 22,
           "nom": "Gimnasio de la Ciudad Algaria",
           "lider": "Vito y Leti",
           "fotoUrl": "imatges/Tate & Liza.jpg",
-          "tipus": ["Psíquico"]
+          "tipus": ["Psíquico🌙"]
         },
         {
           "id": 23,
           "nom": "Gimnasio de la Ciudad Arbolada",
           "lider": "Alana",
           "fotoUrl": "imatges/Winona.jpg",
-          "tipus": ["Volador"]
+          "tipus": ["Volador🌪"]
         },
         {
           "id": 24,
           "nom": "Gimnasio de la Ciudad Arrecípolis",
           "lider": "Galano",
           "fotoUrl": "imatges/Juan.jpg",
-          "tipus": ["Agua"]
+          "tipus": ["Agua💧"]
         }
       ]
     },
@@ -225,56 +225,56 @@
           "nom": "Gimnasio de la Ciudad Pirita",
           "lider": "Roco",
           "fotoUrl": "imatges/Roark.jpg",
-          "tipus": ["Roca"]
+          "tipus": ["Roca🪨"]
         },
         {
           "id": 26,
           "nom": "Gimnasio de la Ciudad Vetusta",
           "lider": "Gardenia",
           "fotoUrl": "imatges/Gardenia.jpg",
-          "tipus": ["Planta"]
+          "tipus": ["Planta🌿"]
         },
         {
           "id": 27,
           "nom": "Gimnasio de la Ciudad Rocavelo",
           "lider": "Brega",
           "fotoUrl": "imatges/Maylene.jpg",
-          "tipus": ["Lucha"]
+          "tipus": ["Lucha🥊"]
         },
         {
           "id": 28,
           "nom": "Gimnasio de la Ciudad Corazón",
           "lider": "Fantina",
           "fotoUrl": "imatges/Fantina.jpg",
-          "tipus": ["Fantasma"]
+          "tipus": ["Fantasma👻"]
         },
         {
           "id": 29,
           "nom": "Gimnasio de la Ciudad Pradera",
           "lider": "Mananti",
           "fotoUrl": "imatges/Crasher Wake.jpg",
-          "tipus": ["Agua"]
+          "tipus": ["Agua💧"]
         },
         {
           "id": 30,
           "nom": "Gimasio de la Ciudad Canal",
           "lider": "Acerón",
           "fotoUrl": "imatges/Acerón.jpg",
-          "tipus": ["Acero"]
+          "tipus": ["Acero⚙"]
         },
         {
           "id": 31,
           "nom": "Gimnasio de la Ciudad Puntanevada",
           "lider": "Inverna",
           "fotoUrl": "imatges/Candice.jpg",
-          "tipus": ["Hielo"]
+          "tipus": ["Hielo❄"]
         },
         {
           "id": 32,
           "nom": "Gimnasio de la Ciudad Marina",
           "lider": "Lectro",
           "fotoUrl": "imatges/Volkner.jpg",
-          "tipus": ["Eléctrico"]
+          "tipus": ["Eléctrico⚡"]
         }
       ]
     },
@@ -295,35 +295,35 @@
           "nom": "Gimnasio de la Ciudad Gres",
           "lider": "Millo, Zeo y Maiz",
           "fotoUrl": "imatges/Cilan.jpg",
-          "tipus": ["Planta", "Fuego", "Agua"]
+          "tipus": ["Planta🌿", "Fuego🔥", "Agua💧"]
         },
         {
           "id": 34,
           "nom": "Gimnasio de la Ciudad Esmalte",
           "lider": "Aloe",
           "fotoUrl": "imatges/Lenora.jpg",
-          "tipus": ["Normal"]
+          "tipus": ["Normal🐻"]
         },
         {
           "id": 35,
           "nom": "Gimnasio de la Ciudad Porcelana",
           "lider": "Camus",
           "fotoUrl": "imatges/Burgh.jpg",
-          "tipus": ["Bicho"]
+          "tipus": ["Bicho🕷"]
         },
         {
           "id": 36,
           "nom": "Gimnasio de la Ciudad Mayólica",
           "lider": "Camila",
           "fotoUrl": "imatges/Elesa.jpg",
-          "tipus": ["Eléctrico"]
+          "tipus": ["Eléctrico⚡"]
         },
         {
           "id": 37,
           "nom": "Gimnasio de Ciudad Fayenza",
           "lider": "Yakón",
           "fotoUrl": "imatges/Yakón.jpg",
-          "tipus": ["Tierra"]
+          "tipus": ["Tierra🌎"]
 
         },
         {
@@ -331,21 +331,21 @@
           "nom": "Gimnasio de la Ciudad Loza",
           "lider": "Gerania",
           "fotoUrl": "imatges/Skyla.jpg",
-          "tipus": ["Volador"]
+          "tipus": ["Volador🌪"]
         },
         {
           "id": 39,
           "nom": "Gimnasio de la Ciudad Teja",
           "lider": "Junco",
           "fotoUrl": "imatges/Brycen.jpg",
-          "tipus": ["Hielo"]
+          "tipus": ["Hielo❄"]
         },
         {
           "id": 40,
           "nom": "Gimnasio de la Ciudad Caolín",
           "lider": "Lirio",
           "fotoUrl": "imatges/Drayden.jpg",
-          "tipus": ["Dragón"]
+          "tipus": ["Dragón🌀"]
         }
       ]
     },
@@ -364,56 +364,56 @@
           "nom": "Gimnasio de la Ciudad Novarte",
           "lider": "Violeta",
           "fotoUrl": "imatges/Violeta.jpg",
-          "tipus": ["Bicho"]
+          "tipus": ["Bicho🕷"]
         },
         {
           "id": 42,
           "nom": "Gimnasio de la Ciudad Luminalia",
           "lider": "Lem",
           "fotoUrl": "imatges/Clemont.jpg",
-          "tipus": ["Eléctrico"]
+          "tipus": ["Eléctrico⚡"]
         },
         {
           "id": 43,
           "nom": "Gimnasio de la Ciudad de Relieve",
           "lider": "Lino",
           "fotoUrl": "imatges/Lino.jpg",
-          "tipus": ["Roca"]
+          "tipus": ["Roca🪨"]
         },
         {
           "id": 44,
           "nom": "Gimnasio de la Ciudad Yantra",
           "lider": "Corelia",
           "fotoUrl": "imatges/Korrina.jpg",
-          "tipus": ["Lucha"]
+          "tipus": ["Lucha🥊"]
         },
         {
           "id": 45,
           "nom": "Gimnasio de la Ciudad Témpera",
           "lider": "Amaro",
           "fotoUrl": "imatges/Ramos.jpg",
-          "tipus": ["Planta"]
+          "tipus": ["Planta🌿"]
         },
         {
           "id": 46,
           "nom": "Gimnasio de la Ciudad Romantis",
           "lider": "Valeria",
           "fotoUrl": "imatges/Valérie.jpg",
-          "tipus": ["Hada"]
+          "tipus": ["Hada🧚🏻"]
         },
         {
           "id": 47,
           "nom": "Gimnasio de la Ciudad Fluxus",
           "lider": "Ástrid",
           "fotoUrl": "imatges/Olympia.jpg",
-          "tipus": ["Psíquico"]
+          "tipus": ["Psíquico🌙"]
         },
         {
           "id": 48,
           "nom": "Gimnasio de la Ciudad Fractal",
           "lider": "Édel",
           "fotoUrl": "imatges/Wulfric.jpg",
-          "tipus": ["Hielo"]
+          "tipus": ["Hielo❄"]
         }
       ]
     },
@@ -434,70 +434,70 @@
           "nom": "Prueba de Liam",
           "lider": "Capitan Liam",
           "fotoUrl": "imatges/Liam.jpg",
-          "tipus": ["Normal"]
+          "tipus": ["Normal🐻"]
         },
         {
           "id": 50,
           "nom": "Gran Prueba de Kaudan",
           "lider": "Kahuna Kaudan",
           "fotoUrl": "imatges/Kaudan.jpg",
-          "tipus": ["Lucha"]
+          "tipus": ["Lucha🥊"]
         },
         {
           "id": 51,
           "nom": "Prueba de Nereida",
           "lider": "Capitana Nereida",
           "fotoUrl": "imatges/Nereida.jpg",
-          "tipus": ["Agua"]
+          "tipus": ["Agua💧"]
         },
         {
           "id": 52,
           "nom": "Prueba de Kiawe",
           "lider": "Capitan Kiawe",
           "fotoUrl": "imatges/Kiawe.jpg",
-          "tipus": ["Fuego"]
+          "tipus": ["Fuego🔥"]
         },
         {
           "id": 53,
           "nom": "Prueba de Lulú",
           "lider": "Capitana Lulú",
           "fotoUrl": "imatges/Lulú.jpg",
-          "tipus": ["Planta"]
+          "tipus": ["Planta🌿"]
         },
         {
           "id": 54,
           "nom": "Gran prueba de Mayla",
           "lider": "Kahuna Mayla",
           "fotoUrl": "imatges/Mayla.jpg",
-          "tipus": ["Roca"]
+          "tipus": ["Roca🪨"]
         },
         {
           "id": 55,
           "nom": "Prueba de Chris",
           "lider": "Capitan Chris",
           "fotoUrl": "imatges/Chris.jpg",
-          "tipus": ["Electrico"]
+          "tipus": ["Electrico⚡"]
         },
         {
           "id": 56,
           "nom": "Prueba de Zarala",
           "lider": "Capitana Zarala",
           "fotoUrl": "imatges/Zarala.jpg",
-          "tipus": ["Fantasma"]
+          "tipus": ["Fantasma👻"]
         },
         {
           "id": 57,
           "nom": "Gran prueba de Denio",
           "lider": "Kahuna Denio",
           "fotoUrl": "imatges/Denio.jpg",
-          "tipus": ["Siniestro"]
+          "tipus": ["Siniestro🌑"]
         },
         {
           "id": 58,
           "nom": "Gran Prueba de Hela",
           "lider": "Kahuna Hela",
           "fotoUrl": "imatges/Hela.jpg",
-          "tipus": ["Tierra"]
+          "tipus": ["Tierra🌎"]
         }
       ]
     }
