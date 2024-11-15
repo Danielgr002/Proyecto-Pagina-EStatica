@@ -17,57 +17,99 @@
           "nom": "Gimnasio de la Ciudad Verde",
           "lider": "Giovanni",
           "fotoUrl": "imatges/Giovanni.jpg",
-          "tipus": ["Tierra🌎"]
-
+          "tipus": ["Tierra🌎"],
+          "pokemons": [
+            "Rhyhorn Nv. 45",
+            "Dugtrio Nv. 42",
+            "Nidoking Nv.45",
+            "Nidoqueen Nv. 44",
+            "Rhydon Nv.50"
+          ]
         },
         {
           "id": 2,
           "nom": "Gimnasio de la Ciudad Plateada",
           "lider": "Brock",
           "fotoUrl": "imatges/Brock.jpg",
-          "tipus": ["Roca🪨"]
+          "tipus": ["Roca🪨"],
+          "pokemons": [
+            "Geodude Nv.12",
+            "Onix Nv.14"
+          ]
         },
         {
           "id": 3,
           "nom": "Gimnasio de la Ciudad Celeste",
           "lider": "Misty",
           "fotoUrl": "imatges/Misty.jpg",
-          "tipus": ["Agua💧"]
+          "tipus": ["Agua💧"],
+          "pokemons": [
+            "Staryu Nv.18",
+            "Starmie Nv.21"
+          ]
         },
         {
           "id": 4,
           "nom": "Gimnasio de la Ciudad Carmin",
           "lider": "Teniente Surge",
           "fotoUrl": "imatges/Lt._Surge.jpg",
-          "tipus": ["Eléctrico ⚡"]
+          "tipus": ["Eléctrico ⚡"],
+          "pokemons": [
+            "Voltorb Nv.21",
+            "Pikachu Nv.18",
+            "Richu Nv.24"
+          ]
         },
         {
           "id": 5,
           "nom": "Gimnasio de la Ciudad Azulona",
           "lider": "Erika",
           "fotoUrl": "imatges/Erika.jpg",
-          "tipus": ["Planta🌿"]
+          "tipus": ["Planta🌿"],
+          "pokemons": [
+            "Victreebel Nv.29",
+            "Tangela Nv.24",
+            "Vileplume Nv.29"
+          ]
         },
         {
           "id": 6,
           "nom": "Gimnasio de la Ciudad Fucsia",
           "lider": "Koga",
           "fotoUrl": "imatges/Koga.jpg",
-          "tipus": ["Veneno🌸"]
+          "tipus": ["Veneno🌸"],
+          "pokemons": [
+            "Koffing Nv.37",
+            "Koffing Nv.37",
+            "Muk Nv.39",
+            "Weezing Nv.43"
+          ]
         },
         {
           "id": 7,
           "nom": "Gimnasio de la Ciudad Azafrán",
           "lider": "Sabrina",
           "fotoUrl": "imatges/Sabrina.jpg",
-          "tipus": ["Psíquico🌙"]
+          "tipus": ["Psíquico🌙"],
+          "pokemons": [
+            "Kadabra Nv.38",
+            "Venomoth Nv.38",
+            "Mr. Mime Nv.37",
+            "Alakazam Nv.43"
+          ]
         },
         {
           "id": 8,
           "nom": "Gimnasio de las Islas Espuma",
           "lider": "Blaine",
           "fotoUrl": "imatges/Blaine.jpg",
-          "tipus": ["Fuego🔥"]
+          "tipus": ["Fuego🔥"],
+          "pokemons": [
+            "Growlithe Nv.42",
+            "Ponyta Nv.40",
+            "Rapidash Nv.42",
+            "Arcanine Nv.47"
+          ]
         }
       ]
     },
@@ -87,28 +129,45 @@
           "nom": "Gimnasio de la Ciudad Malva",
           "lider": "Pegaso",
           "fotoUrl": "imatges/Falkner.jpg",
-          "tipus": ["Volador🌪"]
+          "tipus": ["Volador🌪"],
+          "pokemons": [
+            "Pidgey Nv.9",
+            "Pidgeotto Nv.13"
+          ]
         },
         {
           "id": 10,
           "nom": "Gimnasio de la Ciudad de Azalea",
           "lider": "Antón",
           "fotoUrl": "imatges/Bugsy.jpg",
-          "tipus": ["Bicho🕷"]
+          "tipus": ["Bicho🕷"],
+          "pokemons": [
+            "Metapod Nv.9",
+            "Kakuna Nv.13",
+            "Scyther Nv.16"
+          ]
         },
         {
           "id": 11,
           "nom": "Gimnasio de la Ciudad Trigal",
           "lider": "Blanca",
           "fotoUrl": "imatges/Whitney.jpg",
-          "tipus": ["Normal🐻"]
+          "tipus": ["Normal🐻"],
+          "pokemons": [
+            "Clefairy Nv.18",
+            "Militank Nv.20"
+          ]
         },
         {
           "id": 12,
           "nom": "Gimnasio de la Ciudad Iris",
           "lider": "Morti",
           "fotoUrl": "imatges/Morty.jpg",
-          "tipus": ["Fantasma👻"]
+          "tipus": ["Fantasma👻"],
+          "pokemons": [
+            "Gas Nv.9",
+            "Pidgeotto Nv.13"
+          ]
         },
         {
           "id": 13,

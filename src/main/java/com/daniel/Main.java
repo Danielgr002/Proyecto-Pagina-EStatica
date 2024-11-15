@@ -9,15 +9,18 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
         templateResolver.setPrefix("templates/");
         templateResolver.setSuffix(".html");
-
+        Properties properties = new Properties();
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
+        properties.getProperty("nom");
+        properties.getProperty("descripcio");
 
         Context context = new Context();
 
@@ -25,7 +28,6 @@ public class Main {
 
         if (pok != null) {
             context.setVariable("generacions", pok.getGeneraciones());
-
             String contingutHTML = templateEngine.process("plantilla1", context);
 
             //System.out.println(contingutHTML);
@@ -35,7 +37,6 @@ public class Main {
             for (Generaciones generacion : pok.getGeneraciones()) {
                 Context contextDetalles = new Context();
                 contextDetalles.setVariable("generacion", generacion);
-
                 String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
                 String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
 
