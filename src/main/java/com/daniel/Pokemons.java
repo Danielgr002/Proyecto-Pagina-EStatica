@@ -111,16 +111,27 @@ class Gimnasios {
     private String fotoUrl;
     @JsonProperty("tipus")
     private List<String> tipus;
+    @JsonProperty("pokemons")
+    private List<String> pokemons;
 
     public Gimnasios(){
     }
 
-    public Gimnasios(int id, String nom, String lider, String fotoUrl, List<String> tipus) {
+    public Gimnasios(int id, String nom, String fotoUrl, String lider, List<String> tipus, List<String> pokemons) {
         this.id = id;
         this.nom = nom;
-        this.lider = lider;
         this.fotoUrl = fotoUrl;
+        this.lider = lider;
         this.tipus = tipus;
+        this.pokemons = pokemons;
+    }
+
+    public List<String> getPokemons() {
+        return pokemons;
+    }
+
+    public void setPokemons(List<String> pokemons) {
+        this.pokemons = pokemons;
     }
 
     public String getFotoUrl() {

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title th:text="'Detalles de la ' + ${generacion.nom}"> </title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/Diseño.css">
 </head>
 <body>
@@ -21,6 +22,10 @@
                 <img th:src="@{${gimnasio.fotoUrl}}" alt="Foto del lider de gimnasio" class="foto-lider">
                 <p>Líder: <span th:text="${gimnasio.lider}"></span></p>
                 <p>Tipo: <span th:text="${#strings.arrayJoin(gimnasio.tipus, ', ')}"></span></p>
+                <p>Equipo Pokemon:</p>
+                <span th:each="pokemon : ${gimnasio.pokemons}">
+                <span th:text="${pokemon}"></span><br>
+                </span>
             </li>
         </ul>
     </section>

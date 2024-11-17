@@ -53,7 +53,7 @@
           "nom": "Gimnasio de la Ciudad Carmin",
           "lider": "Teniente Surge",
           "fotoUrl": "imatges/Lt._Surge.jpg",
-          "tipus": ["Eléctrico ⚡"],
+          "tipus": ["Eléctrico⚡"],
           "pokemons": [
             "Voltorb Nv.21",
             "Pikachu Nv.18",
@@ -165,8 +165,10 @@
           "fotoUrl": "imatges/Morty.jpg",
           "tipus": ["Fantasma👻"],
           "pokemons": [
-            "Gas Nv.9",
-            "Pidgeotto Nv.13"
+            "Gastly Nv.21",
+            "Haunter Nv.21",
+            "Gengar Nv25",
+            "Haunter Nv23"
           ]
         },
         {
@@ -174,28 +176,48 @@
           "nom": "Gimnasio de la Ciudad Orquídea",
           "lider": "Aníbal",
           "fotoUrl": "imatges/Chuck.jpg",
-          "tipus": ["Lucha🥊"]
+          "tipus": ["Lucha🥊"],
+          "pokemons": [
+            "Primeape Nv.29",
+            "Poliwrath Nv.31"
+          ]
         },
         {
           "id": 14,
           "nom": "Gimnasio de la Ciudad Olivo",
           "lider": "Yasmina",
           "fotoUrl": "imatges/Jasmine.jpg",
-          "tipus": ["Acero⚙️"]
+          "tipus": ["Acero⚙️"],
+          "pokemons": [
+            "Magnemite Nv.30",
+            "Magnemite Nv.30",
+            "Steelix Nv.35"
+          ]
         },
         {
           "id": 15,
           "nom": "Gimnasio de la Ciudad Caoba",
           "lider": "Fredo",
           "fotoUrl": "imatges/Pryce.jpg",
-          "tipus": ["Hielo❄"]
+          "tipus": ["Hielo❄"],
+          "pokemons": [
+            "Seel Nv.27",
+            "Dewgong Nv.29",
+            "Piloswine Nv.31"
+          ]
         },
         {
           "id": 16,
           "nom": "Gimnasio de la Ciudad Endrino",
           "lider": "Débora",
           "fotoUrl": "imatges/Clair.jpg",
-          "tipus": ["Dragón🌀"]
+          "tipus": ["Dragón🌀"],
+          "pokemons": [
+            "Dragonair Nv.37",
+            "Dragonair Nv.37",
+            "Dragonair Nv.37",
+            "Kingdra Nv.40"
+          ]
         }
       ]
     },
@@ -215,56 +237,104 @@
           "nom": "Gimnasio de la Ciudad Férrica",
           "lider": "Petra",
           "fotoUrl": "imatges/Roxanne.jpg",
-          "tipus": ["Roca🪨"]
+          "tipus": ["Roca🪨"],
+          "pokemons": [
+            "Geodude Nv.12",
+            "Geodude Nv.12",
+            "Nosepass Nv.15"
+          ]
         },
         {
           "id": 18,
           "nom": "Gimnasio de la Ciudad Azuliza",
           "lider": "Marcial",
           "fotoUrl": "imatges/Brawly.jpg",
-          "tipus": ["Lucha🥊"]
+          "tipus": ["Lucha🥊"],
+          "pokemons": [
+            "Machop Nv.16",
+            "Meditite Nv.16",
+            "Makuhita Nv.19"
+          ]
         },
         {
           "id": 19,
           "nom": "Gimnasio de la Ciudad Malvalona",
           "lider": "Erico",
           "fotoUrl": "imatges/Wattson.jpg",
-          "tipus": ["Eléctrico⚡"]
+          "tipus": ["Eléctrico⚡"],
+          "pokemons": [
+            "Electrike Nv.20",
+            "Voltorb Nv.20",
+            "Magneton Nv.22",
+            "Manectric Nv 24"
+          ]
         },
         {
           "id": 20,
           "nom": "Gimnasio de Pueblo Lavacalda",
           "lider": "Candela",
           "fotoUrl": "imatges/Flannery.jpg",
-          "tipus": ["Fuego🔥"]
+          "tipus": ["Fuego🔥"],
+          "pokemons": [
+            "Numel Nv.24",
+            "Slugma Nv.24",
+            "Camerupt Nv.26",
+            "Torkoal Nv 29"
+          ]
         },
         {
           "id": 21,
           "nom": "Gimnasio de la Ciudad Petalia",
           "lider": "Norman",
           "fotoUrl": "imatges/Norman.jpg",
-          "tipus": ["Normal🐻"]
+          "tipus": ["Normal🐻"],
+          "pokemons": [
+            "Spinda Nv.27",
+            "Slaking Nv.31",
+            "Vigoroth Nv.27",
+            "Linoone Nv 29"
+          ]
         },
         {
           "id": 22,
           "nom": "Gimnasio de la Ciudad Algaria",
           "lider": "Vito y Leti",
           "fotoUrl": "imatges/Tate & Liza.jpg",
-          "tipus": ["Psíquico🌙"]
+          "tipus": ["Psíquico🌙"],
+          "pokemons": [
+            "Claydol Nv.41",
+            "Xatu Nv.41",
+            "Lunatone Nv.42",
+            "Solrock Nv 42"
+          ]
         },
         {
           "id": 23,
           "nom": "Gimnasio de la Ciudad Arbolada",
           "lider": "Alana",
           "fotoUrl": "imatges/Winona.jpg",
-          "tipus": ["Volador🌪"]
+          "tipus": ["Volador🌪"],
+          "pokemons": [
+            "Swablu Nv.29",
+            "Pelipper Nv.30",
+            "Skarmory Nv.31",
+            "Altaria Nv 33",
+            "Tropius Nv 29"
+          ]
         },
         {
           "id": 24,
           "nom": "Gimnasio de la Ciudad Arrecípolis",
           "lider": "Galano",
           "fotoUrl": "imatges/Juan.jpg",
-          "tipus": ["Agua💧"]
+          "tipus": ["Agua💧"],
+          "pokemons": [
+            "Luvdisc Nv.41",
+            "Whiscash Nv.41",
+            "Sealeo Nv.43",
+            "Crawdaunt Nv 43",
+            "Kingdra Nv 46"
+          ]
         }
       ]
     },
@@ -284,56 +354,98 @@
           "nom": "Gimnasio de la Ciudad Pirita",
           "lider": "Roco",
           "fotoUrl": "imatges/Roark.jpg",
-          "tipus": ["Roca🪨"]
+          "tipus": ["Roca🪨"],
+          "pokemons": [
+            "Geodude Nv.12",
+            "Onix Nv.12",
+            "Cranidos Nv.14"
+          ]
         },
         {
           "id": 26,
           "nom": "Gimnasio de la Ciudad Vetusta",
           "lider": "Gardenia",
           "fotoUrl": "imatges/Gardenia.jpg",
-          "tipus": ["Planta🌿"]
+          "tipus": ["Planta🌿"],
+          "pokemons": [
+            "Turtwig Nv.20",
+            "Cherrim Nv.20",
+            "Roserade Nv.22"
+          ]
         },
         {
           "id": 27,
           "nom": "Gimnasio de la Ciudad Rocavelo",
           "lider": "Brega",
           "fotoUrl": "imatges/Maylene.jpg",
-          "tipus": ["Lucha🥊"]
+          "tipus": ["Lucha🥊"],
+          "pokemons": [
+            "Meditite Nv.28",
+            "Machoke Nv.29",
+            "Lucario Nv.32"
+          ]
         },
         {
           "id": 28,
           "nom": "Gimnasio de la Ciudad Corazón",
           "lider": "Fantina",
           "fotoUrl": "imatges/Fantina.jpg",
-          "tipus": ["Fantasma👻"]
+          "tipus": ["Fantasma👻"],
+          "pokemons": [
+            "Duskull Nv.24",
+            "Haunter Nv.24",
+            "Mismagius Nv.26"
+          ]
         },
         {
           "id": 29,
           "nom": "Gimnasio de la Ciudad Pradera",
           "lider": "Mananti",
           "fotoUrl": "imatges/Crasher Wake.jpg",
-          "tipus": ["Agua💧"]
+          "tipus": ["Agua💧"],
+          "pokemons": [
+            "Gyarados Nv.33",
+            "Quagsire Nv.34",
+            "Floatzel Nv.37"
+          ]
         },
         {
           "id": 30,
           "nom": "Gimasio de la Ciudad Canal",
           "lider": "Acerón",
           "fotoUrl": "imatges/Acerón.jpg",
-          "tipus": ["Acero⚙"]
+          "tipus": ["Acero⚙"],
+          "pokemons": [
+            "Magneton Nv.37",
+            "Steelix Nv.38",
+            "Bastiodon Nv.41"
+          ]
         },
         {
           "id": 31,
           "nom": "Gimnasio de la Ciudad Puntanevada",
           "lider": "Inverna",
           "fotoUrl": "imatges/Candice.jpg",
-          "tipus": ["Hielo❄"]
+          "tipus": ["Hielo❄"],
+          "pokemons": [
+            "Sneasel Nv.40",
+            "Piloswine Nv.40",
+            "Abomasnow Nv.42",
+            "Froslass Nv.44"
+          ]
         },
         {
           "id": 32,
           "nom": "Gimnasio de la Ciudad Marina",
           "lider": "Lectro",
           "fotoUrl": "imatges/Volkner.jpg",
-          "tipus": ["Eléctrico⚡"]
+          "tipus": ["Eléctrico⚡"],
+          "pokemons": [
+            "Jolteon Nv.46",
+            "Raichu Nv.46",
+            "Luxray Nv.48",
+            "Electivire Nv.50"
+          ]
         }
       ]
     },
@@ -354,57 +466,98 @@
           "nom": "Gimnasio de la Ciudad Gres",
           "lider": "Millo, Zeo y Maiz",
           "fotoUrl": "imatges/Cilan.jpg",
-          "tipus": ["Planta🌿", "Fuego🔥", "Agua💧"]
+          "tipus": ["Planta🌿", "Fuego🔥", "Agua💧"],
+          "pokemons": [
+            "Lillipup Nv.12",
+            "Pansage Nv.14",
+            "Lillipup Nv.12",
+            "Pansear Nv.14",
+            "Lillipup Nv. 12",
+            "Panpour Nv.14"
+          ]
         },
         {
           "id": 34,
           "nom": "Gimnasio de la Ciudad Esmalte",
           "lider": "Aloe",
           "fotoUrl": "imatges/Lenora.jpg",
-          "tipus": ["Normal🐻"]
+          "tipus": ["Normal🐻"],
+          "pokemons": [
+            "Herdier Nv.18",
+            "Watchog Nv.20"
+          ]
         },
         {
           "id": 35,
           "nom": "Gimnasio de la Ciudad Porcelana",
           "lider": "Camus",
           "fotoUrl": "imatges/Burgh.jpg",
-          "tipus": ["Bicho🕷"]
+          "tipus": ["Bicho🕷"],
+          "pokemons": [
+            "Whirlipede Nv.21",
+            "Dwebble Nv.21",
+            "Leavanny Nv.23"
+          ]
         },
         {
           "id": 36,
           "nom": "Gimnasio de la Ciudad Mayólica",
           "lider": "Camila",
           "fotoUrl": "imatges/Elesa.jpg",
-          "tipus": ["Eléctrico⚡"]
+          "tipus": ["Eléctrico⚡"],
+          "pokemons": [
+            "Emolga Nv.25",
+            "Emolga Nv.25",
+            "Zebstrika Nv.27"
+          ]
         },
         {
           "id": 37,
           "nom": "Gimnasio de Ciudad Fayenza",
           "lider": "Yakón",
           "fotoUrl": "imatges/Yakón.jpg",
-          "tipus": ["Tierra🌎"]
-
+          "tipus": ["Tierra🌎"],
+          "pokemons": [
+            "Krokorok Nv.29",
+            "Palpitoad Nv.29",
+            "Excadrill Nv.31"
+          ]
         },
         {
           "id": 38,
           "nom": "Gimnasio de la Ciudad Loza",
           "lider": "Gerania",
           "fotoUrl": "imatges/Skyla.jpg",
-          "tipus": ["Volador🌪"]
+          "tipus": ["Volador🌪"],
+          "pokemons": [
+            "Swoobat Nv.33",
+            "Swanna Nv.35",
+            "Unfezant Nv.33"
+          ]
         },
         {
           "id": 39,
           "nom": "Gimnasio de la Ciudad Teja",
           "lider": "Junco",
           "fotoUrl": "imatges/Brycen.jpg",
-          "tipus": ["Hielo❄"]
+          "tipus": ["Hielo❄"],
+          "pokemons": [
+            "Vanillish Nv.37",
+            "Cryogonal Nv.37",
+            "Beartic Nv.39"
+          ]
         },
         {
           "id": 40,
           "nom": "Gimnasio de la Ciudad Caolín",
           "lider": "Lirio",
           "fotoUrl": "imatges/Drayden.jpg",
-          "tipus": ["Dragón🌀"]
+          "tipus": ["Dragón🌀"],
+          "pokemons": [
+            "Fraxure Nv.41",
+            "Druddigon Nv.41",
+            "Haxorus Nv.43"
+          ]
         }
       ]
     },
@@ -423,56 +576,93 @@
           "nom": "Gimnasio de la Ciudad Novarte",
           "lider": "Violeta",
           "fotoUrl": "imatges/Violeta.jpg",
-          "tipus": ["Bicho🕷"]
+          "tipus": ["Bicho🕷"],
+          "pokemons": [
+            "Surskit Nv.10",
+            "Vivillon Nv.12"
+          ]
         },
         {
           "id": 42,
           "nom": "Gimnasio de la Ciudad Luminalia",
           "lider": "Lem",
           "fotoUrl": "imatges/Clemont.jpg",
-          "tipus": ["Eléctrico⚡"]
+          "tipus": ["Eléctrico⚡"],
+          "pokemons": [
+            "Emolga Nv.35",
+            "Magneton Nv.35",
+            "Heliolisk Nv.37"
+          ]
         },
         {
           "id": 43,
           "nom": "Gimnasio de la Ciudad de Relieve",
           "lider": "Lino",
           "fotoUrl": "imatges/Lino.jpg",
-          "tipus": ["Roca🪨"]
+          "tipus": ["Roca🪨"],
+          "pokemons": [
+            "Amaura Nv.25",
+            "Tyrunt Nv.25"
+          ]
         },
         {
           "id": 44,
           "nom": "Gimnasio de la Ciudad Yantra",
           "lider": "Corelia",
           "fotoUrl": "imatges/Korrina.jpg",
-          "tipus": ["Lucha🥊"]
+          "tipus": ["Lucha🥊"],
+          "pokemons": [
+            "Lucario Nv.25",
+            "Lucario Nv.25"
+          ]
         },
         {
           "id": 45,
           "nom": "Gimnasio de la Ciudad Témpera",
           "lider": "Amaro",
           "fotoUrl": "imatges/Ramos.jpg",
-          "tipus": ["Planta🌿"]
+          "tipus": ["Planta🌿"],
+          "pokemons": [
+            "Jumpluff Nv.25",
+            "Weepinbell Nv.25",
+            "Gogoat Nv.34"
+          ]
         },
         {
           "id": 46,
           "nom": "Gimnasio de la Ciudad Romantis",
           "lider": "Valeria",
           "fotoUrl": "imatges/Valérie.jpg",
-          "tipus": ["Hada🧚🏻"]
+          "tipus": ["Hada🧚🏻"],
+          "pokemons": [
+            "Mawile Nv.38",
+            "Sylveon Nv.42",
+            "Mr. Mime Nv.39"
+          ]
         },
         {
           "id": 47,
           "nom": "Gimnasio de la Ciudad Fluxus",
           "lider": "Ástrid",
           "fotoUrl": "imatges/Olympia.jpg",
-          "tipus": ["Psíquico🌙"]
+          "tipus": ["Psíquico🌙"],
+          "pokemons": [
+            "Sigilyph Nv.44",
+            "Slowking Nv.45",
+            "Meowstic Nv.48"
+          ]
         },
         {
           "id": 48,
           "nom": "Gimnasio de la Ciudad Fractal",
           "lider": "Édel",
           "fotoUrl": "imatges/Wulfric.jpg",
-          "tipus": ["Hielo❄"]
+          "tipus": ["Hielo❄"],
+          "pokemons": [
+            "Abomasnow Nv.56",
+            "Cryogonal Nv.55",
+            "Avalugg Nv.59"
+          ]
         }
       ]
     },
@@ -493,70 +683,124 @@
           "nom": "Prueba de Liam",
           "lider": "Capitan Liam",
           "fotoUrl": "imatges/Liam.jpg",
-          "tipus": ["Normal🐻"]
+          "tipus": ["Normal🐻"],
+          "pokemons": [
+            "Yungoos Nv.9",
+            "Smeargle Nv.10"
+          ]
         },
         {
           "id": 50,
           "nom": "Gran Prueba de Kaudan",
           "lider": "Kahuna Kaudan",
           "fotoUrl": "imatges/Kaudan.jpg",
-          "tipus": ["Lucha🥊"]
+          "tipus": ["Lucha🥊"],
+          "pokemons": [
+            "Mankey Nv.14",
+            "Makuhita Nv.14",
+            "Crabrawler Nv.15"
+          ]
         },
         {
           "id": 51,
           "nom": "Prueba de Nereida",
           "lider": "Capitana Nereida",
           "fotoUrl": "imatges/Nereida.jpg",
-          "tipus": ["Agua💧"]
+          "tipus": ["Agua💧"],
+          "pokemons": [
+            "Chinchou Nv.26",
+            "Shellder Nv.26",
+            "Araquanid Nv.27"
+          ]
         },
         {
           "id": 52,
           "nom": "Prueba de Kiawe",
           "lider": "Capitan Kiawe",
           "fotoUrl": "imatges/Kiawe.jpg",
-          "tipus": ["Fuego🔥"]
+          "tipus": ["Fuego🔥"],
+          "pokemons": [
+            "Growlithe Nv.26",
+            "Fletchinder Nv.26",
+            "Marowak de Alola Nv.27"
+          ]
         },
         {
           "id": 53,
           "nom": "Prueba de Lulú",
           "lider": "Capitana Lulú",
           "fotoUrl": "imatges/Lulú.jpg",
-          "tipus": ["Planta🌿"]
+          "tipus": ["Planta🌿"],
+          "pokemons": [
+            "Phantump Nv.26",
+            "Shiinotic Nv.26",
+            "Steenee de Alola Nv.27"
+          ]
         },
         {
           "id": 54,
           "nom": "Gran prueba de Mayla",
           "lider": "Kahuna Mayla",
           "fotoUrl": "imatges/Mayla.jpg",
-          "tipus": ["Roca🪨"]
+          "tipus": ["Roca🪨"],
+          "pokemons": [
+            "Nosepass Nv.26",
+            "Boldore Nv.26",
+            "Lycanroc de Alola Nv.27"
+          ]
         },
         {
           "id": 55,
           "nom": "Prueba de Chris",
           "lider": "Capitan Chris",
           "fotoUrl": "imatges/Chris.jpg",
-          "tipus": ["Electrico⚡"]
+          "tipus": ["Electrico⚡"],
+          "pokemons": [
+            "Togedemaru Nv.61",
+            "Magnezone Nv.61",
+            "Electivire Nv.61",
+            "Golem de Alola Nv.61",
+            "Vikavolt Nv.61"
+          ]
         },
         {
           "id": 56,
           "nom": "Prueba de Zarala",
           "lider": "Capitana Zarala",
           "fotoUrl": "imatges/Zarala.jpg",
-          "tipus": ["Fantasma👻"]
+          "tipus": ["Fantasma👻"],
+          "pokemons": [
+            "Sableye Nv.54",
+            "Drifblim Nv.54",
+            "Dhelmise Nv.54",
+            "Froslass Nv.54",
+            "Palossand Nv.54"
+          ]
         },
         {
           "id": 57,
           "nom": "Gran prueba de Denio",
           "lider": "Kahuna Denio",
           "fotoUrl": "imatges/Denio.jpg",
-          "tipus": ["Siniestro🌑"]
+          "tipus": ["Siniestro🌑"],
+          "pokemons": [
+            "Sableye Nv.38",
+            "Krokorok Nv.38",
+            "Persian Nv.39"
+          ]
         },
         {
           "id": 58,
           "nom": "Gran Prueba de Hela",
           "lider": "Kahuna Hela",
           "fotoUrl": "imatges/Hela.jpg",
-          "tipus": ["Tierra🌎"]
+          "tipus": ["Tierra🌎"],
+          "pokemons": [
+            "Dugtrio de Alola Nv.47",
+            "Gastrodon Nv.47",
+            "Flygon Nv.47",
+            "Mudsdale Nv.48"
+          ]
         }
       ]
     }

@@ -5,10 +5,7 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 public class Main {
@@ -16,18 +13,31 @@ public class Main {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
         templateResolver.setPrefix("templates/");
         templateResolver.setSuffix(".html");
+        String config = "src/main/resources/config.ini";
         Properties properties = new Properties();
+        try {
+            InputStreamReader input = new InputStreamReader(new FileInputStream(config));
+            properties.load(input);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
-        properties.getProperty("nom");
-        properties.getProperty("descripcio");
 
+        String nom = properties.getProperty("nom");
+        String descripcio = properties.getProperty("descripcio");
+
+        //System.out.println(nom);
+        //System.out.println(descripcio);
         Context context = new Context();
 
         Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
 
         if (pok != null) {
             context.setVariable("generacions", pok.getGeneraciones());
+            context.setVariable("nom", nom);
+            context.setVariable("descripcio", descripcio);
             String contingutHTML = templateEngine.process("plantilla1", context);
 
             //System.out.println(contingutHTML);
@@ -42,6 +52,8 @@ public class Main {
 
                 escriuHTML(detallesHTML, fileName);
             }
+            String rutaRSS = "src/main/resources/static/rss.xml";
+            generaRSS(pok, rutaRSS, nom, descripcio);
         } else {
             System.out.println("Error al cargar los datos desde el archivo JSON.");
         }
@@ -65,5 +77,29 @@ public class Main {
             e.printStackTrace();
         }
     }
+    public static void generaRSS(Pokemons pok, String rutaRSS, String nom, String descripcio){
+        try {
+            FileWriter fw = new FileWriter(rutaRSS);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+            bw.write("<rss version=\"2.0\">\n");
+            bw.write("<channel>\n");
+            bw.write("<title>"+nom+"</title>\n");
+            bw.write("<link>src/main/resources/static/index.html</link>\n");
+            bw.write("<description>"+descripcio+"</description>\n");
+            for (Generaciones generacion: pok.getGeneraciones()){
+                bw.write("<item>\n");
+                bw.write("<title>" + generacion.getNom() + "</title>\n");
+                bw.write("<link>src/main/resources/static/detalles_" + generacion.getId() + ".html</link>\n");
+                bw.write("<description>" + generacion.getLocalitzacio() + "</description>\n");
+                bw.write("</item>\n");
+            }
+            bw.write("</channel>\n");
+            bw.write("</rss>\n");
+            bw.close();
+            fw.close();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 }
-
