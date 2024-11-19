@@ -1,6 +1,13 @@
 package com.daniel;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.fge.jackson.JsonLoader;
+import com.github.fge.jsonschema.core.exceptions.ProcessingException;
+import com.github.fge.jsonschema.core.report.ProcessingReport;
+import com.github.fge.jsonschema.main.JsonSchema;
+import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
@@ -10,6 +17,14 @@ import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
+        try {
+            JsonNode json = JsonLoader.fromFile(new File("src/main/resources/Pokemons.json"));
+            JsonNode schema = JsonLoader.fromFile(new File("src/main/resources/Pokemons-schema.json"));
+
+            JsonSchemaFactory jsonSchemaFcatory = JsonSchemaFactory.byDefault();
+            JsonSchema jsonSchema = jsonSchemaFcatory.getJsonSchema(schema);
+            ProcessingReport report = jsonSchema.validate(json);
+
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
         templateResolver.setPrefix("templates/");
         templateResolver.setSuffix(".html");
@@ -28,36 +43,36 @@ public class Main {
         String nom = properties.getProperty("nom");
         String descripcio = properties.getProperty("descripcio");
 
-        //System.out.println(nom);
-        //System.out.println(descripcio);
-        Context context = new Context();
+        if (report.isSuccess()) {
+            Context context = new Context();
 
-        Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
+            Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
 
-        if (pok != null) {
-            context.setVariable("generacions", pok.getGeneraciones());
-            context.setVariable("nom", nom);
-            context.setVariable("descripcio", descripcio);
-            String contingutHTML = templateEngine.process("plantilla1", context);
+            if (pok != null) {
+                context.setVariable("generacions", pok.getGeneraciones());
+                context.setVariable("nom", nom);
+                context.setVariable("descripcio", descripcio);
+                String contingutHTML = templateEngine.process("plantilla1", context);
 
-            //System.out.println(contingutHTML);
+                escriuHTML(contingutHTML, "src/main/resources/static/index.html");
 
-            escriuHTML(contingutHTML, "src/main/resources/static/index.html");
+                for (Generaciones generacion : pok.getGeneraciones()) {
+                    Context contextDetalles = new Context();
+                    contextDetalles.setVariable("generacion", generacion);
+                    String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
+                    String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
 
-            for (Generaciones generacion : pok.getGeneraciones()) {
-                Context contextDetalles = new Context();
-                contextDetalles.setVariable("generacion", generacion);
-                String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
-                String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
-
-                escriuHTML(detallesHTML, fileName);
+                    escriuHTML(detallesHTML, fileName);
+                }
+                String rutaRSS = "src/main/resources/static/rss.xml";
+                generaRSS(pok, rutaRSS, nom, descripcio);
+            } else {
+                System.out.println("Error al cargar los datos desde el archivo JSON.");
             }
-            String rutaRSS = "src/main/resources/static/rss.xml";
-            generaRSS(pok, rutaRSS, nom, descripcio);
-        } else {
-            System.out.println("Error al cargar los datos desde el archivo JSON.");
         }
-
+        }catch (IOException | ProcessingException e){
+            System.out.println("Error al validar el json schema con el json.");
+        }
     }
 
     public static Pokemons cargarDatosDesdeJSON(String path) {
