@@ -25,54 +25,51 @@ public class Main {
             JsonSchema jsonSchema = jsonSchemaFcatory.getJsonSchema(schema);
             ProcessingReport report = jsonSchema.validate(json);
 
-            ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
-            templateResolver.setPrefix("templates/");
-            templateResolver.setSuffix(".html");
-            String config = "src/main/resources/config.ini";
-            Properties properties = new Properties();
-            try {
-                InputStreamReader input = new InputStreamReader(new FileInputStream(config));
-                properties.load(input);
-            } catch (IOException e){
-                e.printStackTrace();
-            }
+        ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
+        templateResolver.setPrefix("templates/");
+        templateResolver.setSuffix(".html");
+        String config = "src/main/resources/config.ini";
+        Properties properties = new Properties();
+        try {
+            InputStreamReader input = new InputStreamReader(new FileInputStream(config));
+            properties.load(input);
+        } catch (IOException e){
+            e.printStackTrace();
+        }
 
-            TemplateEngine templateEngine = new TemplateEngine();
-            templateEngine.setTemplateResolver(templateResolver);
+        TemplateEngine templateEngine = new TemplateEngine();
+        templateEngine.setTemplateResolver(templateResolver);
 
-            String nom = properties.getProperty("nom");
-            String descripcio = properties.getProperty("descripcio");
+        String nom = properties.getProperty("nom");
+        String descripcio = properties.getProperty("descripcio");
 
-            //System.out.println(nom);
-            //System.out.println(descripcio);
-            if (report.isSuccess()) {
-                Context context = new Context();
+        if (report.isSuccess()) {
+            Context context = new Context();
 
-                Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
+            Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
 
-                if (pok != null) {
-                    context.setVariable("generacions", pok.getGeneraciones());
-                    context.setVariable("nom", nom);
-                    context.setVariable("descripcio", descripcio);
-                    String contingutHTML = templateEngine.process("plantilla1", context);
+            if (pok != null) {
+                context.setVariable("generacions", pok.getGeneraciones());
+                context.setVariable("nom", nom);
+                context.setVariable("descripcio", descripcio);
+                String contingutHTML = templateEngine.process("plantilla1", context);
 
-                    //System.out.println(contingutHTML);
-                    escriuHTML(contingutHTML, "src/main/resources/static/index.html");
+                escriuHTML(contingutHTML, "src/main/resources/static/index.html");
 
-                    for (Generaciones generacion : pok.getGeneraciones()) {
-                        Context contextDetalles = new Context();
-                        contextDetalles.setVariable("generacion", generacion);
-                        String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
-                        String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
+                for (Generaciones generacion : pok.getGeneraciones()) {
+                    Context contextDetalles = new Context();
+                    contextDetalles.setVariable("generacion", generacion);
+                    String detallesHTML = templateEngine.process("plantilla2", contextDetalles);
+                    String fileName = "src/main/resources/static/detalles_" + generacion.getId() + ".html";
 
-                        escriuHTML(detallesHTML, fileName);
-                    }
-                    String rutaRSS = "src/main/resources/static/rss.xml";
-                    generaRSS(pok, rutaRSS, nom, descripcio);
-                } else {
-                    System.out.println("Error al cargar los datos desde el archivo JSON.");
+                    escriuHTML(detallesHTML, fileName);
                 }
+                String rutaRSS = "src/main/resources/static/rss.xml";
+                generaRSS(pok, rutaRSS, nom, descripcio);
+            } else {
+                System.out.println("Error al cargar los datos desde el archivo JSON.");
             }
+        }
         }catch (IOException | ProcessingException e){
             System.out.println("Error al validar el json schema con el json.");
         }
