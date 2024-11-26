@@ -17,6 +17,7 @@ import java.util.Properties;
 
 public class Main {
     public static void main(String[] args) {
+        //Hola, esto es una excusa para hacer un commit
         try {
             JsonNode json = JsonLoader.fromFile(new File("src/main/resources/Pokemons.json"));
             JsonNode schema = JsonLoader.fromFile(new File("src/main/resources/Pokemons-schema.json"));
