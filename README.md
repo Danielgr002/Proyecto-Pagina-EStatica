@@ -23,7 +23,7 @@
 ---
 
 ## Descripció del projecte
-[La finalidad del proyecto es hacer un proyecto en InteliJ que a partir de unas plantillas de Thymelife pueda generar unos archivos html para una pagina web estatica.]
+La finalidad del proyecto es hacer un proyecto en InteliJ que a partir de unas plantillas de Thymelife pueda generar unos archivos html para una pagina web estatica.
 
 ---
 
@@ -425,9 +425,22 @@ Ejemplo de una parte del json:
 ```
 
 - ### Captures de les pàgines creades:
+#### Captura de el index.html.
+![Captura1](imagenes/captura1.png)
+#### Captura de detalles_1.html de la primera generacion:
+![Captura2](imagenes/captura2.png)
 
+## Problemes resolts i no resolts
 
+### Problemas con validar el json con el json-schema.
 
+Tuve un problema al intentar validar un JSON utilizando JSON Schema, utilizando una librería llamada json-validator, pero no lograba capturar correctamente el error de validación dentro del bloque catch. A continuación, te adjunto los fragmentos del código que utilicé.
 
+```
+ }catch (IOException | ProcessingException e){
+            System.out.println("Error al validar el json schema con el json.");
+        }
+ }       
+```
 
 
