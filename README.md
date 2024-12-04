@@ -1,4 +1,4 @@
-# Memòria del Projecte
+# Memòria del Proyecto
 
 ## Proyecto Generador de Web Estatica
 ### Curso: 2DAM
@@ -8,28 +8,28 @@
 
 ## Índex
 
-1. [Descripció del projecte](#descripció-del-projecte)
-2. [Fitxers d'entrada](#fitxers-dentrada)
-    - [Arxius INI](#arxius-ini)
-    - [Arxius JSON](#arxius-json)
-    - [Arxius Schema](#arxius-schema)
-3. [Descripció de llibreries, classes i dependències](#descripció-de-llibreries-clases-i-dependències)
-4. [Descripció de les plantilles Thymeleaf](#descripció-de-les-plantilles-thymeleaf)
-5. [Fitxers de sortida](#fitxers-de-sortida)
-    - [Fitxers XML](#fitxers-xml)
-    - [Captures de les pàgines creades](#captures-de-les-pàgines-creades)
-6. [Problemes resolts i no resolts](#problemes-resolts-i-no-resolts)
+1. [Descripción del proyecto](#descripción-del-proyecto)
+2. [Ficheros de entrada](#ficheros-de-entrada)
+    - [Archivo INI](#archivo-ini)
+    - [Archivo JSON](#archivo-json)
+    - [Archivo Schema](#archivo-json-schema)
+3. [Descripción de librerías, clases y dependencias](#descripción-de-librerías-clases-y-dependencias)
+4. [Descripción de las plantillas Thymeleaf](#descripción-de-las-plantillas-thymeleaf)
+5. [Ficheros de salida](#ficheros-de-salida)
+    - [Ficheros XML](#ficheros-xml)
+    - [Capturas de las páginas creadas](#capturas-de-las-páginas-creadas)
+6. [Problemas resueltos y no resueltos](#problemas-resueltos-y-no-resueltos)
 
 ---
 
-## Descripció del projecte
+## Descripción del proyecto
 La finalidad del proyecto es hacer un proyecto en InteliJ que a partir de unas plantillas de Thymelife pueda generar unos archivos html para una pagina web estatica.
 
 ---
 
-## Fitxers d'entrada
+## Ficheros de entrada
 
-### Arxiu INI
+### Archivo INI
 
 **Exemple d'arxiu INI:**
 
@@ -38,7 +38,7 @@ nom=Generaciones Pokémon
 descripcio=¡¡Explora las diferentes generaciones de Pokémon y conoce sus gimnasios y pruebas!!
 
 ```
-### Arxiu Json
+### Archivo Json
 Ejemplo de una parte del json:
 ```json
 {
@@ -158,7 +158,7 @@ Ejemplo de una parte del json:
     },
 
 ```
-### Arxiu Json-schema:
+### Archivo Json-schema:
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
@@ -245,9 +245,9 @@ Ejemplo de una parte del json:
   ]
 }
 ```
-## Descripció de llibreries, classes i dependències
+## Descripción de librerias, classes i dependèncias
 
-### Llibreries:
+### Librerias:
 - **thymeleaf**: Esta libreia la he añadido para poder hacer las plantillas de los archivos html.
 - **jackson-databind y jackson-core**: Las he añadido para hacer lo pojos en las clases.
 - **slf4j-api**: Esta la añadi para quitar un error de la terminal.
@@ -296,7 +296,7 @@ Ejemplo de una parte del json:
     </dependency>                                     
 </dependencies>                                       
 ``` 
-## Descripció de les plantilles Thymeleaf.
+## Descripción de las plantillas Thymeleaf.
 
 ### Plantilla de el index.html
 ```
@@ -336,7 +336,7 @@ Ejemplo de una parte del json:
 </body>
 </html>
 ```
-### Plantilla de los detalles de cada generacion.
+### Plantilla de los detalles de cada generación.
 ```
 <!DOCTYPE html>
 <html lang="es" xmlns:th="http://www.thymeleaf.org">
@@ -375,9 +375,9 @@ Ejemplo de una parte del json:
 </body>
 </html>
 ```
-## Fitxers de sortida.
+## Ficheros de salida.
 
-### - Fitxer Rss XML:
+### - Fichero Rss.xml:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -424,13 +424,13 @@ Ejemplo de una parte del json:
 </rss>
 ```
 
-- ### Captures de les pàgines creades:
+- ### Capturas de les pàginas creadas:
 #### Captura de el index.html.
 ![Captura1](imagenes/captura1.png)
-#### Captura de detalles_1.html de la primera generacion:
+#### Captura de detalles_1.html de la primera generación:
 ![Captura2](imagenes/captura2.png)
 
-## Problemes resolts i no resolts
+## Problemas resueltos i no resueltos
 
 ### Problemas con validar el json con el json-schema.
 
