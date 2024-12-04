@@ -245,7 +245,7 @@ Ejemplo de una parte del json:
   ]
 }
 ```
-## Descripción de librerias, classes i dependèncias
+## Descripción de librerías, classes i dependencias
 
 ### Librerias:
 - **thymeleaf**: Esta libreia la he añadido para poder hacer las plantillas de los archivos html.
