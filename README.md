@@ -442,7 +442,7 @@ Tuve un problema al intentar validar un JSON utilizando JSON Schema, utilizando 
         }
  }       
 ```
-Finalemente logre solucionarlo y quedo de la siguiente forma:
+Finalmente logré solucionarlo y quedó de la siguiente forma:
 ```
 if (!report.isSuccess()) {
     //System.out.println("Error al validar");
