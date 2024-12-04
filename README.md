@@ -434,13 +434,31 @@ Ejemplo de una parte del json:
 
 ### Problemas con validar el json con el json-schema.
 
-Tuve un problema al intentar validar un JSON utilizando JSON Schema, utilizando una librería llamada json-validator, pero no lograba capturar correctamente el error de validación dentro del bloque catch. A continuación, te adjunto los fragmentos del código que utilicé.
+Tuve un problema al intentar validar un JSON utilizando JSON Schema, utilizando una librería llamada json-validator, perque no lograba capturar correctamente el error de validación dentro del bloque catch ya que era con un objeto report que capturaba el error prto no lo mandaba al catch de ProcessingExceptoion. A continuación, te adjunto los fragmentos del código que utilicé.
 
 ```
  }catch (IOException | ProcessingException e){
             System.out.println("Error al validar el json schema con el json.");
         }
  }       
+```
+Finalemente logre solucionarlo y quedo de la siguiente forma:
+```
+if (!report.isSuccess()) {
+    //System.out.println("Error al validar");
+    //System.out.println(report);
+    //report.forEach(System.out::println);
+    throw new ProcessingException();
+} else {
+    System.out.println("Exito al validar");
+}
+```
+```
+}catch (ProcessingException e){
+    System.out.println("Error al validar el json con el json schema.");
+} catch (IOException e) {
+    System.out.println("Error al cargar datos del json.");
+}
 ```
 
 
