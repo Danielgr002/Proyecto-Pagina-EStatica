@@ -16,7 +16,7 @@
 3. [Descripción de librerías, clases y dependencias](#descripción-de-librerías-clases-y-dependencias)
 4. [Descripción de las plantillas Thymeleaf](#descripción-de-las-plantillas-thymeleaf)
 5. [Ficheros de salida](#ficheros-de-salida)
-    - [Fichero Rss.xml](#ficheros-xml)
+    - [Fichero Rss.xml](##fichero-rssxml)
     - [Capturas de las páginas creadas](#capturas-de-las-páginas-creadas)
 6. [Problemas resueltos y no resueltos](#problemas-resueltos-y-no-resueltos)
 
