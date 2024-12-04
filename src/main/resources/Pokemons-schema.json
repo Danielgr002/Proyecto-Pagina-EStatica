@@ -63,7 +63,8 @@
                 "fotoUrl",
                 "tipus",
                 "pokemons"
-              ]
+              ],
+              "additionalProperties": false
             }
           }
         },
@@ -74,11 +75,13 @@
           "jocs",
           "localitzacio",
           "gimnassos"
-        ]
+        ],
+        "additionalProperties": false
       }
     }
   },
   "required": [
     "generacions"
-  ]
+  ],
+  "additionalProperties": false
 }

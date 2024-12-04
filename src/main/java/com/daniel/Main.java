@@ -26,25 +26,35 @@ public class Main {
             JsonSchema jsonSchema = jsonSchemaFcatory.getJsonSchema(schema);
             ProcessingReport report = jsonSchema.validate(json);
 
-        ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
-        templateResolver.setPrefix("templates/");
-        templateResolver.setSuffix(".html");
-        String config = "src/main/resources/config.ini";
-        Properties properties = new Properties();
-        try {
-            InputStreamReader input = new InputStreamReader(new FileInputStream(config));
-            properties.load(input);
-        } catch (IOException e){
-            e.printStackTrace();
-        }
+            if (!report.isSuccess()) {
+                //System.out.println("Error al validar");
+                //System.out.println(report);
+                //report.forEach(System.out::println);
+                throw new ProcessingException();
+            } else {
+                System.out.println("Exito al validar");
+            }
 
-        TemplateEngine templateEngine = new TemplateEngine();
-        templateEngine.setTemplateResolver(templateResolver);
+            ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
+            templateResolver.setPrefix("templates/");
+            templateResolver.setSuffix(".html");
+            String config = "src/main/resources/config.ini";
+            Properties properties = new Properties();
+            try {
+                InputStreamReader input = new InputStreamReader(new FileInputStream(config));
+                properties.load(input);
+            } catch (IOException e) {
+                System.out.println("Error al leer los datos del json.");
+                e.printStackTrace();
+            }
 
-        String nom = properties.getProperty("nom");
-        String descripcio = properties.getProperty("descripcio");
+            TemplateEngine templateEngine = new TemplateEngine();
+            templateEngine.setTemplateResolver(templateResolver);
 
-        if (report.isSuccess()) {
+            String nom = properties.getProperty("nom");
+            String descripcio = properties.getProperty("descripcio");
+
+
             Context context = new Context();
 
             Pokemons pok = cargarDatosDesdeJSON("src/main/resources/Pokemons.json");
@@ -67,12 +77,11 @@ public class Main {
                 }
                 String rutaRSS = "src/main/resources/static/rss.xml";
                 generaRSS(pok, rutaRSS, nom, descripcio);
-            } else {
-                System.out.println("Error al cargar los datos desde el archivo JSON.");
             }
-        }
-        }catch (IOException | ProcessingException e){
-            System.out.println("Error al validar el json schema con el json.");
+        }catch (ProcessingException e){
+                System.out.println("Error al validar el json con el json schema.");
+        } catch (IOException e) {
+            System.out.println("Error al cargar datos del json.");
         }
     }
 
@@ -93,17 +102,18 @@ public class Main {
             e.printStackTrace();
         }
     }
-    public static void generaRSS(Pokemons pok, String rutaRSS, String nom, String descripcio){
+
+    public static void generaRSS(Pokemons pok, String rutaRSS, String nom, String descripcio) {
         try {
             FileWriter fw = new FileWriter(rutaRSS);
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
             bw.write("<rss version=\"2.0\">\n");
             bw.write("<channel>\n");
-            bw.write("<title>"+nom+"</title>\n");
+            bw.write("<title>" + nom + "</title>\n");
             bw.write("<link>src/main/resources/static/index.html</link>\n");
-            bw.write("<description>"+descripcio+"</description>\n");
-            for (Generaciones generacion: pok.getGeneraciones()){
+            bw.write("<description>" + descripcio + "</description>\n");
+            for (Generaciones generacion : pok.getGeneraciones()) {
                 bw.write("<item>\n");
                 bw.write("<title>" + generacion.getNom() + "</title>\n");
                 bw.write("<link>src/main/resources/static/detalles_" + generacion.getId() + ".html</link>\n");
@@ -114,7 +124,7 @@ public class Main {
             bw.write("</rss>\n");
             bw.close();
             fw.close();
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
