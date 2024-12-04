@@ -16,7 +16,7 @@
 3. [Descripción de librerías, clases y dependencias](#descripción-de-librerías-clases-y-dependencias)
 4. [Descripción de las plantillas Thymeleaf](#descripción-de-las-plantillas-thymeleaf)
 5. [Ficheros de salida](#ficheros-de-salida)
-    - [Ficheros XML](#ficheros-xml)
+    - [Fichero Rss.xml](#ficheros-xml)
     - [Capturas de las páginas creadas](#capturas-de-las-páginas-creadas)
 6. [Problemas resueltos y no resueltos](#problemas-resueltos-y-no-resueltos)
 
@@ -377,7 +377,7 @@ Ejemplo de una parte del json:
 ```
 ## Ficheros de salida.
 
-### - Fichero Rss.xml:
+### - Fichero Rss.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -430,7 +430,7 @@ Ejemplo de una parte del json:
 #### Captura de detalles_1.html de la primera generación:
 ![Captura2](imagenes/captura2.png)
 
-## Problemas resueltos i no resueltos
+## Problemas resueltos y no resueltos
 
 ### Problemas con validar el json con el json-schema.
 
