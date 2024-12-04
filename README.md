@@ -245,7 +245,7 @@ Ejemplo de una parte del json:
   ]
 }
 ```
-## Descripción de librerías, classes i dependencias
+## Descripción de librerías, clases y dependencias
 
 ### Librerias:
 - **thymeleaf**: Esta libreia la he añadido para poder hacer las plantillas de los archivos html.
@@ -424,7 +424,7 @@ Ejemplo de una parte del json:
 </rss>
 ```
 
-- ### Capturas de les pàginas creadas:
+- ### Capturas de las páginas creadas:
 #### Captura de el index.html.
 ![Captura1](imagenes/captura1.png)
 #### Captura de detalles_1.html de la primera generación:
