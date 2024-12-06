@@ -23,7 +23,7 @@
 ---
 
 ## Descripción del proyecto
-La finalidad del proyecto es hacer un proyecto en InteliJ que a partir de unas plantillas de Thymelife pueda generar unos archivos html para una pagina web estatica.
+La finalidad del proyecto es hacer un proyecto en InteliJ que a partir de unas plantillas de Thymeleafe pueda generar unos archivos html para una pagina web estatica.
 
 ---
 
