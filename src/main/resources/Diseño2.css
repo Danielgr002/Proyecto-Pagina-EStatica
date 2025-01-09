@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/static/imatges/fondo_detalles.jpg');
+    background-image: url('static/imatges/fondo_detalles.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
