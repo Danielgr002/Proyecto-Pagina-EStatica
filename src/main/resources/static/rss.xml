@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Generaciones Pokémon</title>
+<link>src/main/resources/static/index.html</link>
+<description>¡¡Explora las diferentes generaciones de Pokémon y conoce sus gimnasios y pruebas!!</description>
+<item>
+<title>Generación I</title>
+<link>src/main/resources/static/detalles_1.html</link>
+<description>Región Kanto</description>
+</item>
+<item>
+<title>Generación II</title>
+<link>src/main/resources/static/detalles_2.html</link>
+<description>Región Johto</description>
+</item>
+<item>
+<title>Generación III</title>
+<link>src/main/resources/static/detalles_3.html</link>
+<description>Región Hoenn</description>
+</item>
+<item>
+<title>Generación IV</title>
+<link>src/main/resources/static/detalles_4.html</link>
+<description>Región Sinnoh</description>
+</item>
+<item>
+<title>Generación V</title>
+<link>src/main/resources/static/detalles_5.html</link>
+<description>Región Teselia</description>
+</item>
+<item>
+<title>Generación VI</title>
+<link>src/main/resources/static/detalles_6.html</link>
+<description>Región Kalos</description>
+</item>
+<item>
+<title>Generación VII</title>
+<link>src/main/resources/static/detalles_7.html</link>
+<description>Región Alola</description>
+</item>
+</channel>
+</rss>
