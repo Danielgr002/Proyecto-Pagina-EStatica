@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('/static/imatges/pokemonfondo.png');
+    background-image: url('static/imatges/pokemonfondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
